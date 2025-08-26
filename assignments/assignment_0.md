@@ -58,7 +58,7 @@ mkdir Desktop
 mv shell-lesson-data Desktop
 ```
 
-In the code above, `wget` is a command to download files with a https web address and `https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip` is the web address of the data file.  Notice that it is zipped.  You can use the `unzip` command to unzip it.  Once you have executed the commands above, the data will be in your present directory in the directory named `shell-lesson-data`. The last two lines will make your directory have the same structure as assumed in the lesson.  Those with macs might see an error after `mkdir Desktop`.  That's ok, it just means that the desktop dir was already there. Those with Ubuntu on windows, the `Desktop` dir will be created.  Then for everybody `mv` will move the `shell-lesson-data` dir inside of the `Desktop` dir
+In the code above, `wget` is a command to download files from the internet and `https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip` is the web address of the data file.  Notice that it is zipped.  You can use the `unzip` command to unzip it.  Once you have executed the commands above, the data will be in the directory named `shell-lesson-data`. The third line of code will create a new directory (folder) named `Desktop`. Those with macs might see an error after `mkdir Desktop`.  That's ok, it just means that the desktop dir was already there. Those with Ubuntu on windows, the `Desktop` dir will be created.  Then `mv` will move the `shell-lesson-data` dir inside of the `Desktop` dir.
 
 ---
 
@@ -66,7 +66,9 @@ In the code above, `wget` is a command to download files with a https web addres
 
 We have a steep learning curve to traverse, so we are going to "flip" the classroom next week. Flipping the classroom means that you work on the material to be covered before we address it in lecture.  Then we can spend time in lecture going over the most challenging topics, as identified by you. Then we will continue together in lecture through new material that builds upon this assignment.
 
-Your assignment is to work through [Software Carpentry's The Unix Shell](https://swcarpentry.github.io/shell-novice/) from "Introducing the Shell" through "Working with Files and Directories". (click the link)
+Your assignment is to work through [Software Carpentry's The Unix Shell](https://swcarpentry.github.io/shell-novice/) from "Introducing the Shell" through "Working with Files and Directories". You should set up your computer to have one window with your terminal (or shell) and one with the software carpentry web page (click the link)
+
+Note that we have already completed the Download Files, Install Software, and Open a New Shell sections. Proceed directly to [1. Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
 
 Read through the lesson. Everytime there's a code block (has a blue line across top), copy and paste the command in the code block into your terminal. It will also show you the expected output in the block with the black line across the top (don't type this in, only the commands under the blue lines).  Also, don't type the $
 
@@ -93,6 +95,9 @@ I made these notes, which are organized by the sections of the assignment, to he
 Nothing to note
 
 ### 2. [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir/index.html)
+
+> IMPORTANT!
+> For those using Github CodeSpaces for your terminal, after running the command `cd`, you will be taken to your home dir and it will be in a different location than Software Carpentry expects. Use `cd -` to get back to where you were.
 
 * use `ctrl+l` keystroke to clear the terminal (those with macs, try `command+l`).  that's a lower case `L`
 * my favorite `ls` flags, aka options
