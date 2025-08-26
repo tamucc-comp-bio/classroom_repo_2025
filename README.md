@@ -78,39 +78,39 @@ the hidden section ends here
 
 
 
-* [08/30  Week00  Introduction & Data](lectures/lecture00.md)
-  * [Assignment_0  Due, 09/08](assignments/assignment_0.md)
+* [08/29  Week00  Introduction & Data](lectures/lecture00.md)
+  * [Assignment_0  Due, 09/05](assignments/assignment_0.md)
 
-* [09/06  Week01 Unix I](lectures/lecture01.md)
+* [09/05  Week01 Unix I](lectures/lecture01.md)
 
-  * [Assignment_1,  Due 09/13](assignments/assignment_1.md)
+  * [Assignment_1,  Due 09/12](assignments/assignment_1.md)
 
   * [Grad Student Course Project: Ideas, Due 09/13](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUOUo2UVRUMVgwTUlQMlpUQzUzOTIzME9LNi4u)
 
-* [09/13  Week02 Unix II](lectures/lecture02.md)
+* [09/12  Week02 Unix II](lectures/lecture02.md)
 
-  * [Assignment_2,  Due 09/20](assignments/assignment_2.md)
+  * [Assignment_2,  Due 09/19](assignments/assignment_2.md)
 
-* [09/20  Week03 Unix III](lectures/lecture03.md)
+* [09/19  Week03 Unix III](lectures/lecture03.md)
 
-  * [Assignment_3,  Due 09/27](assignments/assignment_3.md)
+  * [Assignment_3,  Due 09/26](assignments/assignment_3.md)
 
-  * [Request Account On TAMUCC Super Computer Due 9/27](http://hpc.tamucc.edu/)
+  * [Request Account On TAMUCC Super Computer Due 9/26](http://hpc.tamucc.edu/)
 
-  * [Grad Student Course Project: Plan/Outline, Due 09/27](https://forms.office.com/r/4ANAsh1v5Z)
+  * [Grad Student Course Project: Plan/Outline, Due 09/26](https://forms.office.com/r/4ANAsh1v5Z)
   
 <!-- This is a hidden comment. It will not be visible in the rendered markdown. 
  
     * [Old Link To Grad Student Course Project](https://classroom.github.com/a/VuB4iKjR).  If you started with this link, then just click the link above, clone the 2022 version of this repo, and copy your work from the old repo to the new one.
 -->
 
-* [09/27  Week04 Version Control w/ Git](lectures/lecture04.md)
+* [09/26  Week04 Version Control w/ Git](lectures/lecture04.md)
 
-  * [Exam_1,  Due 10/04](https://classroom.github.com/a/et6ym0V4)
+  * [Exam_1,  Due 10/03](https://classroom.github.com/a/et6ym0V4)
 
  <!-- 
  
-  * [Grad Student Course Project: GitHub Repo w/ ReadMe, Due 10/04]()
+  * [Grad Student Course Project: GitHub Repo w/ ReadMe, Due 10/03]()
 
 
 </p>
@@ -139,18 +139,20 @@ the hidden section ends here
 
 <!-- This is a hidden comment. It will not be visible in the rendered markdown. 
 
-### SECTION 2. DATA WRANGLING AND VISUALIZATION WITH R
+
 
 This is the end of the hidden section
 -->
 
-* [10/04  Week05 Base R Bootcamp I](lectures/lecture05new.md)
+### SECTION 2. DATA WRANGLING AND VISUALIZATION WITH R
 
-  * [Assignment 5 Due 10/11](assignments/assignment_5.md)
+* [10/03  Week05 Base R Bootcamp I](lectures/lecture05new.md)
 
-* [10/11  Week06 Base R Bootcamp II](lectures/lecture06new.md)
+  * [Assignment 5 Due 10/10](assignments/assignment_5.md)
 
-  * [Assignment 06 Q1, Due 10/18](https://classroom.github.com/a/Hut2FQRZ)
+* [10/10  Week06 Base R Bootcamp II](lectures/lecture06new.md)
+
+  * [Assignment 06 Q1, Due 10/17](https://classroom.github.com/a/Hut2FQRZ)
 
   * Install tidyverse in RStudio
 
@@ -159,20 +161,20 @@ This is the end of the hidden section
 	install.packages("janitor")
 	```
 
-* [10/18  Week07 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
+* [10/17  Week07 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
 
-  * [Assignment 6 Q 2-3, Due 11/01](https://classroom.github.com/a/Hut2FQRZ)
+  * [Assignment 6 Q 2-3, Due 10/24](https://classroom.github.com/a/Hut2FQRZ)
 
-* [10/25  Week07 Take 2 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
+* [10/24  Week07 Take 2 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
 
-  * [Assignment 7, Due 11/01](https://classroom.github.com/a/GaXT-KTR)
+  * [Assignment 7, Due 10/31](https://classroom.github.com/a/GaXT-KTR)
      
-* [11/01  Week08 Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
+* [10/31  Week08 Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
 
-  * [Exam 2 Part 1, Due 11/08](https://forms.office.com/r/yEyDY7DRts)
+  * [Exam 2 Part 1, Due 11/07](https://forms.office.com/r/yEyDY7DRts)
 	* [Exam 2 Part 1 (Outside TAMUCC)](https://forms.office.com/r/TycAwVuDEW)
 
-  * [Exam 2 Part 2, Due 11/08](https://classroom.github.com/a/DC3teNj3)
+  * [Exam 2 Part 2, Due 11/07](https://classroom.github.com/a/DC3teNj3)
 
  <!--
  
@@ -219,17 +221,17 @@ This is the end of the hidden section
 
 ### SECTION 3. PROGRAMMING WITH PYTHON
 
-* [11/08  Week10 Basic Python Programming I](lectures/lecture10.md)
- * [Assignment_10, Due 11/15](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMzdVVkQwTlRQMENSVTQ5S0dUT0c1NFgwRi4u)
+* [11/07  Week10 Basic Python Programming I](lectures/lecture10.md)
+ * [Assignment_10, Due 11/14](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMzdVVkQwTlRQMENSVTQ5S0dUT0c1NFgwRi4u)
     * [Assignment_10 (Outside TAMUCC)](https://forms.office.com/r/ufyV1Xtraf)
 
-* [11/15  Week11 Basic Python Programming II](lectures/lecture11.md)
-* [11/15  Week12 Writing Good Code](lectures/lecture12.md)
-  * [Assignment 11, Due 11/22](https://classroom.github.com/a/4JCYaOLH)
+* [11/14  Week11 Basic Python Programming II](lectures/lecture11.md)
+* [11/14  Week12 Writing Good Code](lectures/lecture12.md)
+  * [Assignment 11, Due 11/21](https://classroom.github.com/a/4JCYaOLH)
  
-* [11/22  Week12 Writing Good Code](lectures/lecture12.md)
-* [11/22  Week13 Scientific Computing](lectures/lecture13.md)
-  * [Assignment 12, **Due Wed 12/04**](https://classroom.github.com/a/LJPtScMZ)
+* [11/21  Week12 Writing Good Code](lectures/lecture12.md)
+* [11/21  Week13 Scientific Computing](lectures/lecture13.md)
+  * [Assignment 12, **Due Wed 12/03**](https://classroom.github.com/a/LJPtScMZ)
 
 </p>
 </details>
@@ -245,7 +247,7 @@ This is the end of the hidden section
 <details><summary>FINAL EXAM: "Welcome to the Desert of the Real"</summary>
 <p>
 
--->
+
 
 ### FINAL EXAM: "Welcome to the Desert of the Real"
 
@@ -262,18 +264,18 @@ We have spent the semester learning:
 #### Undergraduates:  
 I will issue a Final Exam in much the same way I have issued assignments, in a MS Form and a Repo. You can use all resources at your disposal to complete the exam and extra credit.
 
-* [Final Exam (Python) Due 12/13 9:45 pm](https://forms.office.com/r/uYHNJTdBgQ)  LIVE!
+* [Final Exam (Python) Due 12/5 9:45 pm](https://forms.office.com/r/uYHNJTdBgQ)  LIVE!
 
-* [Final Exam Extra Credit Due 12/13 9:45 pm](https://classroom.github.com/a/czMTVVik)  LIVE!
+* [Final Exam Extra Credit Due 12/5 9:45 pm](https://classroom.github.com/a/czMTVVik)  LIVE!
 
 
 
 #### Graduate Students
-Your "final" is completing your independent project by pushing the last changes to your repo by 12/13 9:45 pm.  PhD students have a presentation also on Monday Dec 9 at 2PM in Tidal Hall 2nd Floor Grad Student Conf Table.  All are invited to attend.   
+Your "final" is completing your independent project by pushing the last changes to your repo by 12/9 11:59 pm.  Graduate students have a presentation also on Friday Dec 5 at 2PM in Tidal Hall 2nd Floor Grad Student Conf Table.  All are invited to attend.   
 </p>
 </details>
 
 
-
+-->
 
 ---
