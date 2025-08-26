@@ -210,10 +210,12 @@ This is the end of the hidden section
 <!-- This is a hidden comment. It will not be visible in the rendered markdown. 
 
 
-<details><summary>SECTION 3. PROGRAMMING WITH PYTHON</summary>
-<p>
+
 
 -->
+
+<details><summary>SECTION 3. PROGRAMMING WITH PYTHON</summary>
+<p>
 
 ### SECTION 3. PROGRAMMING WITH PYTHON
 
