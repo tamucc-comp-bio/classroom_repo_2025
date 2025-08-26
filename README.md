@@ -66,16 +66,17 @@ Office hours are W-Th 1:30-4 on Zoom or TH234
 
 ---
 
+<!-- This is a hidden comment. It will not be visible in the rendered markdown. 
 
 <details><summary>SECTION 1.  WELCOME TO THE MATRIX</summary>
 <p>
 
-<!-- This is a hidden comment. It will not be visible in the rendered markdown. 
+the hidden section ends here
+-->
 
 ### SECTION 1.  WELCOME TO THE MATRIX
 
-the hidden section ends here
--->
+
 
 * [08/30  Week00  Introduction & Data](lectures/lecture00.md)
   * [Assignment_0  Due, 09/08](assignments/assignment_0.md)
