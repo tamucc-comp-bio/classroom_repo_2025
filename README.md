@@ -51,9 +51,9 @@ Project examples: automatically process data from experimental apparatus; image 
 <details><summary>CLASSROOM & OFFICE LOCATIONS</summary>
 <p>
 
-Lectures are F 2-4:30 OCNR 240
+Lectures are F 2-4:30 OCNR 241
 
-Office hours are W-Th 1:30-4 on Zoom or TH234
+Office hours are M-W 4-5:30 on Zoom or TH234
 
 [Grades](https://canvas.tamucc.edu) will be maintained on Canvas.
 
