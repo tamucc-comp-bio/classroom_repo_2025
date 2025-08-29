@@ -34,6 +34,20 @@ Upon the successful completion of this course, students should be able to:
 7.	Typeset with `LaTeX` or `MarkDown` variants
 8.	Use the most popular open-source tools for biological data manipulation
 
+1.	Recognize, describe, and organize data into “tidy” data structures
+2.	Locate scientific data repositories and download data
+3.	Operate UNIX/LINUX (super)computers from command line
+4.	Construct and modify computer programming/scripting logic structures for processing biological data
+5.	Describe and use regular expressions to query data
+6.	Use version control software (git) in coordination with GitHub to organize and manage projects
+7.	Typeset with MarkDown
+8.	Use the most popular open-source tools for biological data manipulation
+	a.	Shell scripting (bash)
+	b.	Statistical computing (R, tidyverse)
+	c.	Scientific computing (python)
+9.	Use large language models effectively to assist in data processing.
+
+
 </p>
 </details>
 
