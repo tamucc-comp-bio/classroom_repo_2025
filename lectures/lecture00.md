@@ -30,7 +30,9 @@ During most lectures we will take a few minutes at least once and ask you to app
 
 ### Setup [GitHub CodeSpaces](https://github.com/features/codespaces)
 
-Complete the tasks in the [How to Set Up Your Computer for Computational Biology](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_setup_computer.md) guide.
+Complete the tasks in the [How to Set Up GitHub CodeSpaces](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_github_codespaces.md).
+
+Be sure to turn off your codespace before moving to the next exercise so you don't waste you alloted time allocation.
 
 ---
 
