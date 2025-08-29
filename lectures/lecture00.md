@@ -28,6 +28,13 @@ During most lectures we will take a few minutes at least once and ask you to app
 
 ---
 
+### Setup [GitHub CodeSpaces](https://github.com/features/codespaces)
+
+Complete the tasks in the [How to Set Up Your Computer for Computational Biology](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_setup_computer.md) guide.
+
+---
+
+
 <!-- This is a hidden comment. It will not be visible in the rendered markdown. 
 
 ### Make Your Launch HPC Account
