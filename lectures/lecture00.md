@@ -38,13 +38,13 @@ Note that your account needs to be approved manually in College Station so it wi
 
 ---
 
+-->
+
 ### Setup Your Computer for Computational Biology
 
 Complete the tasks in the [How to Set Up Your Computer for Computational Biology](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_setup_computer.md) guide.
 
 ---
-
--->
 
 ### Check to confirm you have `git` installed
 
