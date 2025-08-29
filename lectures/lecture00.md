@@ -57,9 +57,7 @@ Complete the tasks in the [How to Set Up Your Computer for Computational Biology
 
 ### In the Terminal on Your Local Computer Check to confirm you have `git` installed
 
-If you can't get a terminal up and running in Ubuntu, you can [launch a CodeSpace virtual machine](https://github.com/codespaces) (right click, open in new window, enter codespaces and click the green "New codespace" button in upper right. 
-
-You probably already have this.  If you open your terminal, type in "git":
+Open your terminal, type in "git" and then hit <ENTER/RETURN>:
 
 ```bash
 git
