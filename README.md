@@ -8,17 +8,18 @@ _bookmark this webpage_
 
 ---
 
+[FULL SYLLABUS](syllabi)
+
+[RESOURCES](resources/README.md)
+
 <details><summary>OVERVIEW</summary>
 <p>
-
-[FULL SYLLABUS](syllabi)
 
 This is a 3-credit course for graduate students that introduces the powerful open-source computing tools that are used in biological research for the creation, organization, manipulation, processing, analysis, and archiving of both small data sets and “big data”. This course is designed to prepare and enable students to use computational tools for biological applications in advanced courses and independent research projects. The primary topics covered are: data formats and repositories, command line Linux computing and scripting, regular expressions, super-computing, data wrangling and visualization with R (tidyverse), computer programming with PYTHON, version control and dissemination of scripts and programs with git and GitHub, and typesetting with markdown.
 
 </p>
 </details>
 
-[RESOURCES](resources/README.md)
 
 <details><summary>STUDENT LEARNING OUTCOMES</summary>
 <p>
