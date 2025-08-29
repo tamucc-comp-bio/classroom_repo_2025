@@ -28,6 +28,8 @@ During most lectures we will take a few minutes at least once and ask you to app
 
 ---
 
+<!-- This is a hidden comment. It will not be visible in the rendered markdown. 
+
 ### Make Your Launch HPC Account
 
 Complete the tasks in the [Accessing Launch HPC](https://hprc.tamu.edu/kb/User-Guides/Launch/Access/#no-ssh-login) guide and _BOOKMARK THE GUIDE IN YOUR WEBBROWSER_ because it has the [Launch Portal login link](https://hprc.tamu.edu/kb/User-Guides/Launch/Access/#no-ssh-login).  
@@ -42,6 +44,7 @@ Complete the tasks in the [How to Set Up Your Computer for Computational Biology
 
 ---
 
+-->
 
 ### Check to confirm you have `git` installed
 
