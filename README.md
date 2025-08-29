@@ -25,14 +25,6 @@ This is a 3-credit course for graduate students that introduces the powerful ope
 <p>
 
 Upon the successful completion of this course, students should be able to:
-1.	Recognize, describe, and organize data into standard biological data structures
-2.	Locate scientific data repositories and extract data
-3.	Operate UNIX/LINUX computers from command line
-4.	Construct and modify computer programming/scripting logic structures for processing biological data (`bash`, `R`, `python`)
-5.	Use version control software (`git`)
-6.	Describe and use regular expressions to query data
-7.	Typeset with `LaTeX` or `MarkDown` variants
-8.	Use the most popular open-source tools for biological data manipulation
 
 1.	Recognize, describe, and organize data into “tidy” data structures
 2.	Locate scientific data repositories and download data
