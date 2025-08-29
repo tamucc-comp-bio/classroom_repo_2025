@@ -21,6 +21,9 @@ Do not begin these until we complete the lecture. You need to complete them in o
 
 
 ### [In Lecture Quiz 0.0](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMlExSEtYN0pTTFVXUzJJUlpYRUNGQzU1Ti4u)
+
+   [Quiz 0.0 for Non-TAMUCC Students](https://forms.cloud.microsoft/r/DUdbALPWZ3)
+   
 During most lectures we will take a few minutes at least once and ask you to apply the concepts addressed in lecture. You will be expected to have the class's GitHub repository open in a web browser to follow the links to the questions.  You must be logged into [TAMUCC's webmail](https://outlook.tamucc.edu)
 
 ---
