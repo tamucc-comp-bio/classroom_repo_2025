@@ -1,8 +1,9 @@
 # Week_00 INTRODUCTION & DATA
 
-## [Lecture_00 Stream](https://tamucc.zoom.us/rec/share/vVILmR65m6g2OQpZVpJhD7-ew5rF3HDJpQKA7kV0pg5qLmk7H0ouqOy1UTU8y02W.UdfEoXsGSuVw3hcA)
+## [Lecture_00 Stream 2025]([https://tamucc.zoom.us/rec/share/vVILmR65m6g2OQpZVpJhD7-ew5rF3HDJpQKA7kV0pg5qLmk7H0ouqOy1UTU8y02W.UdfEoXsGSuVw3hcA](https://tamucc.zoom.us/rec/play/B7cHO6zKPZGA2g2zk5NgpKRFw8AOedLVmBpiYd4pCO43t6v0IjI-aujNAfUYmJa9zlSZzKXNBG_c3NHx.0rIgPsGVSXyz7PW3))
 
-Passcode: 6UY=Th8g
+Passcode 2025: sM=xN%0T
+
 
 ## [Lecture_00 Slides](Week00_files/Lecture00_Overview_BigData.pdf)
 
