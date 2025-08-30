@@ -86,7 +86,7 @@ the hidden section ends here
 
 
 * [08/29  Week00  Introduction & Data](lectures/lecture00.md)
-  * [Assignment_0  Due, 09/05](assignments/assignment_0.md)
+  * [Assignment_0  Due, 09/05](assignments/assignment_0_codespaces.md)
 
 * [09/05  Week01 Unix I](lectures/lecture01.md)
 
