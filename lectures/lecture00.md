@@ -143,7 +143,4 @@ git clone git@github.com:tamucc-comp-bio-2022/CSB.git
 
 The repository is named CSB, and it contains all of the example files and directories necessary to conduct the exercises in the text book. Note that this includes solutions to all of the exercises in the book also.
 
----
 
-## HOMEWORK
-[Assignment_0](../assignments/assignment_0.md) complete before the next class
