@@ -16,7 +16,7 @@
 You will need to push the changes of your repo for this exercise to submit your assignment. Instructions are in the `README.md` in this assignment's repo.
 
 > [!NOTE]
-> the Software Carpentry Tutorial has changed since last year.  This is the directory structure you expect if you completed the commands correctly.  
+> the Software Carpentry Tutorial has changed since last year.  This is the directory structure you expect if you completed the commands correctly (not the one in the repo). Unfortunately, I can't change that in you assignment-0 repo, so I'm doing it here.  
 
 ![](assignment_0_answer.png)
 
