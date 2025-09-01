@@ -200,7 +200,7 @@ After you log into the class and get your computer set up, please complete the q
 ---
 
 
-## Review [`assignment_01`](../assignments/assignment_1.md) Due Today 
+## Review [`assignment_01`](../assignments/assignment_1_codespaces.md) Due Today 
 
 <details><summary>Advanced `bash` Commands</summary>
 <p>
@@ -1392,5 +1392,6 @@ Note that some of these commands need to be installed on MacOS using `brew`
 ## Homework 
 
 * [Assignment_2](../assignments/assignment_2.md)
+
 
 
