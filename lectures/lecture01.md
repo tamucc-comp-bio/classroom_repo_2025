@@ -118,7 +118,7 @@ Complete the quiz while your computer is updating
 <details><summary>What is the main point of the Wickham 2014 manuscript?</summary>
 <p>
 
-![](Week01_files/asssignment0_1.png)
+![](Week01_files/assignment0_1.png)
 
  </p>
 </details>
@@ -126,7 +126,7 @@ Complete the quiz while your computer is updating
 <details><summary>What do you like about the Wickham 2014 manuscript?</summary>
 <p>
 
-![](Week01_files/asssignment0_2.png)
+![](Week01_files/assignment0_2.png)
 
  </p>
 </details>
@@ -134,7 +134,7 @@ Complete the quiz while your computer is updating
 <details><summary>Do you disagree with Wickham 2014 on any of their points?</summary>
 <p>
 
-![](Week01_files/asssignment0_3.png)
+![](Week01_files/assignment0_3.png)
 
  </p>
 </details>
@@ -142,7 +142,7 @@ Complete the quiz while your computer is updating
 <details><summary>What was confusing or do you have any questions about Wickham 2014?</summary>
 <p>
 
-![](Week01_files/asssignment0_4.png)
+![](Week01_files/assignment0_4.png)
 
  </p>
 </details>
@@ -154,7 +154,7 @@ Complete the quiz while your computer is updating
 <details><summary>Do you have any questions about the Intro to Github reading?</summary>
 <p>
 
-![](Week01_files/asssignment0_5.png)
+![](Week01_files/assignment0_5.png)
 
  </p>
 </details>
