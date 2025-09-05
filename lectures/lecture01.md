@@ -249,8 +249,8 @@ Complete the quiz while your computer is updating
   
   
   * **Core Git/GitHub concepts:** differences among **commits, branches, and pull requests**.
-  * **GitHub vs. cloud drives:** how version control differs from typical file storage.
-<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
+
+<details><summary>**GitHub vs. cloud drives:** how version control differs from typical file storage.</summary>
 	<p>
 
 	### GitHub (version control) vs. Cloud drives (file storage)
