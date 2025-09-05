@@ -4,6 +4,8 @@
 
 [Wilson_etal_2017_good_enough_practices](../literature/Wilson_etal_2017_good_enough_practices_in_scientific_computing.pdf)
 
+[Complete these questions about the reading](https://forms.cloud.microsoft/r/deB63CDLgD)
+
 ---
 
 ## Computer Preparation
@@ -126,7 +128,7 @@ Complete [Mindexpander 01.02](https://forms.office.com/Pages/ResponsePage.aspx?i
 <details><summary>Software Carpentry</summary>
 <p>
 
-Complete the [Pipes & Filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) tutorial on software carpentry
+Complete the [Pipes & Filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html) tutorial on software carpentry. You can use your computer rather than codespaces
 
 Complete the [Finding Things](https://swcarpentry.github.io/shell-novice/07-find.html) tutorial on software carpentry
 
