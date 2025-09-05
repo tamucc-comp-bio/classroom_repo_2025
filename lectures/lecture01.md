@@ -544,7 +544,7 @@ The rest is not important right now, but if you are dying to know, the `(base)` 
 
 Go ahead and try some of these in your terminal. 
 
-Note that I have created a [Linux Cheat Sheet](resources/CheatSheetLinux_2022-09-02.pdf) to help you with common `bash` commands and keyboard shortcuts.  I encourage you to print this out on a single sheet of paper, both sides, for your reference.
+Note that I have created a [Linux Cheat Sheet](../resources/CheatSheetLinux_2022-09-02.pdf) to help you with common `bash` commands and keyboard shortcuts.  I encourage you to print this out on a single sheet of paper, both sides, for your reference.
 
 ---
 
