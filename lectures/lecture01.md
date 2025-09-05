@@ -197,65 +197,119 @@ Complete the quiz while your computer is updating
 
 * **Most have no questions:** 8/11 (≈73%) said “no questions,” with a couple noting the reading was helpful and something they’ll revisit.
 * **Recurring questions/themes (3/11):**
-
-  * **Fork vs. clone vs. branch:** what each is for and when to use which.
   
-  	<details><summary>Fork vs. clone vs. branch</summary>
-		<p>
+<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
+	<p>
 
-		# Fork
+	# Fork
 
-		* **What:** Your own copy of *someone else’s GitHub repo* under your account.
-		* **Where it lives:** On GitHub.
-		* **Why:** Propose changes to a repo you don’t own (via Pull Request).
-		* **Typical flow:** *Fork → clone your fork → branch → commit/push → PR to upstream.*
-		* **Key cmd(s):**
+	* **What:** Your own copy of *someone else’s GitHub repo* under your account.
+	* **Where it lives:** On GitHub.
+	* **Why:** Propose changes to a repo you don’t own (via Pull Request).
+	* **Typical flow:** *Fork → clone your fork → branch → commit/push → PR to upstream.*
+	* **Key cmd(s):**
 
-		  * *(on GitHub UI)* “Fork”
-		  * `git remote add upstream https://github.com/original/repo.git`
-		  * `git fetch upstream && git merge upstream/main` (keep fork updated)
+	  * *(on GitHub UI)* “Fork”
+	  * `git remote add upstream https://github.com/original/repo.git`
+	  * `git fetch upstream && git merge upstream/main` (keep fork updated)
 
-		# Clone
+	# Clone
 
-		* **What:** Download a remote repo (yours or someone else’s) to your computer.
-		* **Where it lives:** On your machine.
-		* **Why:** To work locally.
-		* **Key cmd:** `git clone https://github.com/user/repo.git`
+	* **What:** Download a remote repo (yours or someone else’s) to your computer.
+	* **Where it lives:** On your machine.
+	* **Why:** To work locally.
+	* **Key cmd:** `git clone https://github.com/user/repo.git`
 
-		# Branch
+	# Branch
 
-		* **What:** A lightweight line of development *inside a single repo*.
-		* **Where it lives:** In your local repo (and on remote once you push).
-		* **Why:** Isolate work without breaking `main`.
-		* **Key cmd(s):**
+	* **What:** A lightweight line of development *inside a single repo*.
+	* **Where it lives:** In your local repo (and on remote once you push).
+	* **Why:** Isolate work without breaking `main`.
+	* **Key cmd(s):**
 
-		  * `git switch -c feature-x` (create & switch)
-		  * `git push -u origin feature-x` (publish branch)
+	  * `git switch -c feature-x` (create & switch)
+	  * `git push -u origin feature-x` (publish branch)
 
-		---
+	---
 
-		### Quick choose
+	### Quick choose
 
-		* **I want my own copy of a public project to contribute back:** **Fork** (then clone it).
-		* **I just need the code on my laptop:** **Clone**.
-		* **I’m adding a feature or fixing a bug without touching main:** **Branch**.
+	* **I want my own copy of a public project to contribute back:** **Fork** (then clone it).
+	* **I just need the code on my laptop:** **Clone**.
+	* **I’m adding a feature or fixing a bug without touching main:** **Branch**.
 
-		### Mini map
+	### Mini map
 
-		```
-		GitHub (original) ──(Fork)──> GitHub (your fork) ──(Clone)──> your laptop
-				                                 └─(Branch)─> feature-x
-		```
-  		</p>
-	</details>
+	```
+	GitHub (original) ──(Fork)──> GitHub (your fork) ──(Clone)──> your laptop
+			                                 └─(Branch)─> feature-x
+	```
+	</p>
+</details>
   
   
   * **Core Git/GitHub concepts:** differences among **commits, branches, and pull requests**.
   * **GitHub vs. cloud drives:** how version control differs from typical file storage.
+<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
+	<p>
+
+	### GitHub (version control) vs. Cloud drives (file storage)
+
+	**What it is**
+
+	* **GitHub:** A *version control* host. Tracks every change as a commit with author, time, and message; supports branches, merges, and code review.
+	* **Cloud drive (e.g., Google Drive/OneDrive/Dropbox):** A *file syncing/storage* service. Keeps files in the cloud and on devices; may keep limited, opaque version history.
+
+	**How changes are tracked**
+
+	* **GitHub:** Explicit snapshots (`add` → `commit` → `push`). Each commit is permanent, diffable, and attributable.
+	* **Cloud drive:** Auto-save overwrites the file; version history exists but is not designed for branching/merging workflows.
+
+	**Working in parallel**
+
+	* **GitHub:** Create **branches** for independent work; merge with a **pull request**; resolves conflicts line-by-line with diffs.
+	* **Cloud drive:** Either live co-editing (Docs/Sheets) or last-writer-wins for files; no true branching or structured merges.
+
+	**Review & accountability**
+
+	* **GitHub:** Pull requests, inline comments, required reviews, CI checks; `blame` to see who changed what, when, and why.
+	* **Cloud drive:** Comments on documents, but no repo-wide review gates or commit metadata.
+
+	**Reproducibility**
+
+	* **GitHub:** You can check out *any* commit/tag and rebuild exactly; great for code, data pipelines, and manuscripts under source control.
+	* **Cloud drive:** You can revert versions, but reconstructing precise states across many files is harder.
+
+	**File types**
+
+	* **GitHub:** Best for plain text (code, Markdown, CSV). Large/binary files (videos, PSDs) are harder; use Git LFS or a drive.
+	* **Cloud drive:** Fine for big/binary files and WYSIWYG docs; not ideal for code collaboration.
+
+	**Offline & syncing**
+
+	* **GitHub:** Work offline; sync intentionally with `push`/`pull`.
+	* **Cloud drive:** Syncs automatically; edits depend on app support for offline.
+
+	---
+
+	## When to use which
+
+	* **Use GitHub** for code, scripts, text-based writing, datasets you want diff/merge, collaboration via branches/PRs, and reproducible snapshots.
+	* **Use a cloud drive** for large binaries, drafts that need rich WYSIWYG co-editing, or assets not suited to diffs.
+
+	---
+
+	## One-liner students can remember
+
+	* **Drive = share & sync files.**
+	* **GitHub = *track, branch, review,* and reproduce changes to files.**
+	</p>
+</details>
+
   * **Collaboration scale:** small teams vs. large open-source workflows.
   * **Beginner essentials:** which **commands/habits** to master first.
 
-**TL;DR:** Overall confidence is high; targeted clarification is needed on fork/clone/branch, core workflow concepts, and practical beginner commands.
+	**TL;DR:** Overall confidence is high; targeted clarification is needed on fork/clone/branch, core workflow concepts, and practical beginner commands.
 
  </p>
 </details>
