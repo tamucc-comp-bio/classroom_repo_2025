@@ -199,6 +199,57 @@ Complete the quiz while your computer is updating
 * **Recurring questions/themes (3/11):**
 
   * **Fork vs. clone vs. branch:** what each is for and when to use which.
+  
+  	<details><summary>Fork vs. clone vs. branch</summary>
+		<p>
+
+		# Fork
+
+		* **What:** Your own copy of *someone else’s GitHub repo* under your account.
+		* **Where it lives:** On GitHub.
+		* **Why:** Propose changes to a repo you don’t own (via Pull Request).
+		* **Typical flow:** *Fork → clone your fork → branch → commit/push → PR to upstream.*
+		* **Key cmd(s):**
+
+		  * *(on GitHub UI)* “Fork”
+		  * `git remote add upstream https://github.com/original/repo.git`
+		  * `git fetch upstream && git merge upstream/main` (keep fork updated)
+
+		# Clone
+
+		* **What:** Download a remote repo (yours or someone else’s) to your computer.
+		* **Where it lives:** On your machine.
+		* **Why:** To work locally.
+		* **Key cmd:** `git clone https://github.com/user/repo.git`
+
+		# Branch
+
+		* **What:** A lightweight line of development *inside a single repo*.
+		* **Where it lives:** In your local repo (and on remote once you push).
+		* **Why:** Isolate work without breaking `main`.
+		* **Key cmd(s):**
+
+		  * `git switch -c feature-x` (create & switch)
+		  * `git push -u origin feature-x` (publish branch)
+
+		---
+
+		### Quick choose
+
+		* **I want my own copy of a public project to contribute back:** **Fork** (then clone it).
+		* **I just need the code on my laptop:** **Clone**.
+		* **I’m adding a feature or fixing a bug without touching main:** **Branch**.
+
+		### Mini map
+
+		```
+		GitHub (original) ──(Fork)──> GitHub (your fork) ──(Clone)──> your laptop
+				                                 └─(Branch)─> feature-x
+		```
+  		</p>
+	</details>
+  
+  
   * **Core Git/GitHub concepts:** differences among **commits, branches, and pull requests**.
   * **GitHub vs. cloud drives:** how version control differs from typical file storage.
   * **Collaboration scale:** small teams vs. large open-source workflows.
