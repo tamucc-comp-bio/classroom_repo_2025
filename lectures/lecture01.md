@@ -144,6 +144,22 @@ Complete the quiz while your computer is updating
 
 ![](Week01_files/assignment0_4.png)
 
+* **Overall:** Most found the paper clear/helpful, but **\~8/11** raised specific confusions or worries about applying it to their own data.
+
+* **Top confusion themes:**
+
+  1. **What’s a variable vs a value (and observation)?** Phone-number example; ambiguity across contexts; human-factors note.
+  2. **How to handle nested/multi-level data & multiple observational units** when “each unit = its own table.”
+  3. **Reshape terminology** (melt/cast, string splitting) and mapping to tidy verbs.
+  4. **Using tidy data in R/code** (what the code means if you don’t know R yet).
+  5. **Column ordering advice** (“order related variables contiguously”)—what to do when “related” is unclear.
+  6. **“Versions” confusion** (unspecified what versions—tools/verbs/formats).
+  7. **Applying concepts to real datasets**—confidence in theory vs practice.
+
+* **No/low confusion:** 3–4 respondents reported no questions and/or said the examples were clear.
+
+
+
  </p>
 </details>
 
@@ -155,6 +171,19 @@ Complete the quiz while your computer is updating
 <p>
 
 ![](Week01_files/assignment0_5.png)
+
+
+* Recurring questions/themes (3/11):
+
+	* Fork vs. clone vs. branch: what each is for and when to use which.
+
+	* Core Git/GitHub concepts: differences among commits, branches, and pull requests.
+
+	* GitHub vs. cloud drives: how version control differs from typical file storage.
+
+	* Collaboration scale: small teams vs. large open-source workflows.
+
+	* Beginner essentials: which commands/habits to master first.
 
  </p>
 </details>
