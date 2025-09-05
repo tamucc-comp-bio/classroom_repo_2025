@@ -147,7 +147,7 @@ Complete the quiz while your computer is updating
 
 ---
 
-## Discussion of Reading Assignment 2: [Intro to GitHub](https://classroom.github.com/a/C_SLS9P8)
+## Discussion of Reading Assignment 1 part 2: [Intro to GitHub](https://classroom.github.com/a/C_SLS9P8)
 
 <details><summary>Do you have any questions about the Intro to Github reading?</summary>
 <p>
@@ -161,7 +161,7 @@ Complete the quiz while your computer is updating
 
 ## Review Quiz 0
 
-<details><summary>Expand</summary>
+<details><summary>click to expand</summary>
 <p>
 
 ![](Week01_files/quiz0_4.png)
@@ -169,6 +169,26 @@ Complete the quiz while your computer is updating
 ![](Week01_files/quiz0_7.png)
 
 ![](Week01_files/quiz0_8.png)
+
+ </p>
+</details>
+
+---
+
+## Review Assignment 0
+
+<details><summary>click to expand</summary>
+<p>
+
+In a nutshell:
+
+1. Click the Link to Create Your Personalized Assignment Repo
+2. Click the CodeSpaces Link in the Repo
+3. Unzip the `shell-lesson-data`, create the `Desktop` dir in you home dir (`~`), move the `shell-lesson-data` dir to `~/Desktop`, change your directory to the `shell-lesson-data` dir
+4. Open the Software Carpentry lesson, split screen between Software Carpentry and Codespaces 
+5. Start at "1. Introducing the Shell" and stop after completing "3. Working with files and directories"
+6. Move your `shell-lesson-data` dir back to the repo
+7. Use `git` to `add`, `commit`, and `push` the changes to the repo back to the primary copy on github.
 
  </p>
 </details>
