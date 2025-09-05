@@ -198,7 +198,7 @@ Complete the quiz while your computer is updating
 * **Most have no questions:** 8/11 (≈73%) said “no questions,” with a couple noting the reading was helpful and something they’ll revisit.
 * **Recurring questions/themes (3/11):**
   
-<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
+	<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
 	<p>
 
 	# Fork
@@ -245,12 +245,12 @@ Complete the quiz while your computer is updating
 			                                 └─(Branch)─> feature-x
 	```
 	</p>
-</details>
+	</details>
   
   
   * **Core Git/GitHub concepts:** differences among **commits, branches, and pull requests**.
 
-<details><summary>**GitHub vs. cloud drives:** how version control differs from typical file storage.</summary>
+	<details><summary>**GitHub vs. cloud drives:** how version control differs from typical file storage.</summary>
 	<p>
 
 	### GitHub (version control) vs. Cloud drives (file storage)
@@ -304,10 +304,91 @@ Complete the quiz while your computer is updating
 	* **Drive = share & sync files.**
 	* **GitHub = *track, branch, review,* and reproduce changes to files.**
 	</p>
-</details>
+	</details>
+ 
+  	<details><summary>**Collaboration scale:** small teams vs. large open-source workflows.</summary>
+	<p>
+	
+	yes
+	
+  	</p>
+	</details>
+  
+    	<details><summary>**Beginner essentials:** which **commands/habits** to master first.</summary>
+	<p>
+	
+	# core loop
 
-  * **Collaboration scale:** small teams vs. large open-source workflows.
-  * **Beginner essentials:** which **commands/habits** to master first.
+	**Commands**
+
+	* `git status` — see what changed.
+	* `git add <file>` / `git add .` — stage changes.
+	* `git commit -m "Do one thing"` — save locally.
+	* `git push` — publish to GitHub.
+	* `git pull --rebase` — get latest cleanly.
+
+	**Habits**
+
+	* Make **small commits** (one logical change).
+	* Write **imperative messages**: “Add README section”.
+	* Run code/tests **before push**.
+
+	---
+
+	# branches & review
+
+	**Commands**
+
+	* `git switch -c feature-x` — create & move to a branch.
+	* `git switch main` / `git pull --rebase` — update main.
+	* `git merge feature-x` (or PR on GitHub) — bring work in.
+	* `git log --oneline --graph --decorate --all` — visualize history.
+	* `git diff` — review what you’re about to commit.
+
+	**Habits**
+
+	* **One branch per task.**
+	* Open **small PRs**; ask for one review.
+	* Add a **.gitignore** early.
+
+	---
+
+	# safe fixes & sync
+
+	**Commands**
+
+	* `git restore <file>` — discard unstaged edits to a file.
+	* `git restore --staged <file>` — unstage.
+	* `git commit --amend` — fix last commit (only if not pushed).
+	* `git revert <sha>` — undo a bad pushed commit (safe).
+	* `git fetch` / `git remote -v` — see & update remotes.
+
+	**Habits**
+
+	* **Never commit secrets** (use env vars).
+	* **Pull before you push** on shared branches.
+	* Skim the **diff in the PR**; explain *why* in the description.
+
+	---
+
+	## One-minute workflow (post-setup)
+
+	```bash
+	git switch -c feature-x
+	# edit files
+	git status
+	git add .
+	git diff --staged        # quick self-review
+	git commit -m "Implement feature X"
+	git push -u origin feature-x
+	# open PR on GitHub
+	```
+
+	> Memory hooks: **status → add → commit → push**, small steps, clear messages, branch per task, review before merge.
+	
+  	</p>
+	</details>
+	
 
 	**TL;DR:** Overall confidence is high; targeted clarification is needed on fork/clone/branch, core workflow concepts, and practical beginner commands.
 
