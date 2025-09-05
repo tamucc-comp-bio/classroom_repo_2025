@@ -182,7 +182,7 @@ Complete the quiz while your computer is updating
 
 In a nutshell:
 
-1. Click the Link to Create Your Personalized Assignment Repo
+1. Click the assignment invite link to create your personalized assignment repo
 2. Click the CodeSpaces Link in the Repo
 3. Unzip the `shell-lesson-data`, create the `Desktop` dir in you home dir (`~`), move the `shell-lesson-data` dir to `~/Desktop`, change your directory to the `shell-lesson-data` dir
 4. Open the Software Carpentry lesson, split screen between Software Carpentry and Codespaces 
@@ -459,7 +459,7 @@ tree ~/Desktop/shell-lesson-data
 
 It should look like this:
 
-![](Week01_files/assignment_0_dirtree.png)
+![](../assignments/assignment_0_answer.png)
 
 
 ---
