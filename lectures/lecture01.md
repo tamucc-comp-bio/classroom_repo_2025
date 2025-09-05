@@ -120,6 +120,14 @@ Complete the quiz while your computer is updating
 
 ![](Week01_files/assignment0_1.png)
 
+* **Core message (consensus):** Define and advocate **tidy data** as a consistent structure that makes analysis easier.
+* **The rule-of-three:** Many cite/echo the schema — **variables = columns, observations = rows, unit type = table**.
+* **Why it matters:** Tidy structure **reduces cleaning effort and errors**, and **speeds manipulation, modeling, and visualization**.
+* **Practical angle:** Paper shows **how to recognize messy data and convert it to tidy**, introduces **tools/workflows** (and a case study), and underpins the **tidyverse** ethos.
+* **Plain-language takes:** “Everything has a clear place,” leading to **faster, clearer, less error-prone** analysis.
+
+**TL;DR:** Wickham defines what “tidy” means and shows that standardizing dataset shape is the fastest path from messy data to reliable analysis.
+
  </p>
 </details>
 
@@ -128,6 +136,14 @@ Complete the quiz while your computer is updating
 
 ![](Week01_files/assignment0_2.png)
 
+* **Examples & visuals dominate:** \~8/11 praise the concrete **before/after examples**, tables, and figures that make concepts easy to **see** and apply.
+* **Clarity & accessibility:** \~5/11 say the writing is **clear**, beginner-friendly, and breaks ideas down well.
+* **Principles made explicit:** Several appreciate how the paper **formalizes intuitive practices** into clear rules.
+* **Practicality:** A few note **actionable fixes** for messy datasets and smoother workflows.
+* **Ecosystem tie-in:** Some liked the links to **ggplot2/plyr** and how the ideas shaped the **tidyverse**.
+* **Interdisciplinary grounding:** 1 mentions the bridge to **relational DBs, CS, and stats**.
+* **Nuanced stance:** 1 notes the paper isn’t dogmatic—**tidy is a strong default**, not the only way.
+
  </p>
 </details>
 
@@ -135,6 +151,14 @@ Complete the quiz while your computer is updating
 <p>
 
 ![](Week01_files/assignment0_3.png)
+
+* **Consensus:** 7/11 explicitly **don’t disagree** with Wickham (some praise clarity/usefulness).
+* **Nuanced pushback (4/11):**
+
+  * **Flexibility over rigidity:** Tidy is a *default*, not a universal rule; sometimes “messy” or non-tidy layouts are practical (e.g., for **data entry/storage**).
+  * **High-dimensional data:** **Array/matrix formats** (genomics, imaging) can be more efficient than tidy tables in some workflows.
+  * **Terminology tone:** Calling things “**bad**” data felt a bit harsh/controversial to one reader.
+* **Open curiosity (not disagreement):** Since it’s a 2014 paper, a few wonder about **updates or new strategies** from Wickham since then.
 
  </p>
 </details>
@@ -158,8 +182,6 @@ Complete the quiz while your computer is updating
 
 * **No/low confusion:** 3–4 respondents reported no questions and/or said the examples were clear.
 
-
-
  </p>
 </details>
 
@@ -173,17 +195,16 @@ Complete the quiz while your computer is updating
 ![](Week01_files/assignment0_5.png)
 
 
-* Recurring questions/themes (3/11):
+* **Most have no questions:** 8/11 (≈73%) said “no questions,” with a couple noting the reading was helpful and something they’ll revisit.
+* **Recurring questions/themes (3/11):**
 
-	* Fork vs. clone vs. branch: what each is for and when to use which.
+  * **Fork vs. clone vs. branch:** what each is for and when to use which.
+  * **Core Git/GitHub concepts:** differences among **commits, branches, and pull requests**.
+  * **GitHub vs. cloud drives:** how version control differs from typical file storage.
+  * **Collaboration scale:** small teams vs. large open-source workflows.
+  * **Beginner essentials:** which **commands/habits** to master first.
 
-	* Core Git/GitHub concepts: differences among commits, branches, and pull requests.
-
-	* GitHub vs. cloud drives: how version control differs from typical file storage.
-
-	* Collaboration scale: small teams vs. large open-source workflows.
-
-	* Beginner essentials: which commands/habits to master first.
+**TL;DR:** Overall confidence is high; targeted clarification is needed on fork/clone/branch, core workflow concepts, and practical beginner commands.
 
  </p>
 </details>
