@@ -340,18 +340,18 @@ Ubuntu Terminal
 
 ![](Week01_files/ubuntu_terminal.png)
 
-&#x2757; IMPORTANT!: The CLI forces you to start memorizing where your files are and what they are named. This causes 95% of the difficulties in learning CLI, so start memorizing your directory structure.  It is also a good idea to be deliberate and organized when creating new directories and files.
+> &#x2757; IMPORTANT!: The CLI forces you to start memorizing where your files are and what they are named. This causes 95% of the difficulties in learning CLI, so start memorizing your directory structure.  It is also a good idea to be deliberate and organized when creating new directories and files.
 
-&#x1F4A1; TIP!: We will use [code blocks](https://en.wikipedia.org/wiki/Block_(programming)) to let you know when and what to type into your CLI. Here, please enter the commands `pwd` and then `ls` into your terminal.
+> &#x1F4A1; TIP!: We will use [code blocks](https://en.wikipedia.org/wiki/Block_(programming)) to let you know when and what to type into your CLI. Here, please enter the commands `pwd` and then `ls` into your terminal.
 
 ```bash
 pwd
 ls
 ```
 
-> `pwd` lists the present working directory, `ls` lists the contents of the present working directory
+`pwd` lists the present working directory, `ls` lists the contents of the present working directory
 
-&#x1F4A1; TIP!: clear the screen with `ctrl + L` keystroke
+> &#x1F4A1; TIP!: clear the screen with `ctrl + L` keystroke
 
 ---
 
@@ -510,7 +510,7 @@ ls CSB/unix/solutions
 
 * The shell we are using in Ubuntu and MacOS is called `bash`, or Born Again Shell
 
-> &#x26A0; CAUTION! _The default shell language for newer Macs is ofte `zsh`.  You can simply type `bash` when you open your terminal to change to a `bash` terminal. You can also change the default terminal to be `bash` rather than `zsh`.  Ask Chet G. Peetee how._
+> &#x26A0; CAUTION! _The default shell language for newer Macs is often `zsh`.  You can simply type `bash` when you open your terminal to change to a `bash` terminal. You can also change the default terminal to be `bash` rather than `zsh`.  Ask Chet G. Peetee how._
 
 * `bash` is a [shell scripting](https://en.wikipedia.org/wiki/Shell_script) computer language
 
@@ -643,7 +643,7 @@ ls -l
 ls -ltrh
 ```
 
-&#x1F4A1; TIP!: _single letter options can typically be combined together, `-l –t –r -h`  =  `-ltrh`_
+> &#x1F4A1; TIP!: _single letter options can typically be combined together, `-l –t –r -h`  =  `-ltrh`_
 
 The command `ls -ltrh` outputs a lot of information to the screen.  It can be overwhelming at first, but it is just basic information about your files and directories in the `pwd`
 
@@ -756,7 +756,7 @@ $ tree shell-lesson-data
 
 ```
 
-&#x1F4A1; TIP!: _the `-r` argument for `cp` means [recursive](https://en.wikipedia.org/wiki/Recursion_(computer_science)) and `-f` means force_
+> &#x1F4A1; TIP!: _the `-r` argument for `cp` means [recursive](https://en.wikipedia.org/wiki/Recursion_(computer_science)) and `-f` means force_
 
 ---
 
@@ -778,7 +778,7 @@ $ tree .
 
 ```
 
-&#x1F4A1; TIP! _`bash` gives no positive feedback, only negative if something is wrong._
+> &#x1F4A1; TIP! _`bash` gives no positive feedback, only negative if something is wrong._
 
 
 ---
@@ -810,7 +810,7 @@ $ ls ..
 
 ```
 
-&#x1F4A1; TIP! _`bash` gives no positive feedback, only negative if something is wrong._
+> &#x1F4A1; TIP! _`bash` gives no positive feedback, only negative if something is wrong._
 
 ---
 
@@ -842,7 +842,7 @@ $ rm -rf d1
 $ rm -rf ../north-pacific-gyre/exercise-data/
 ```
 
-&#x26A0; CAUTION! _be careful with `rm`, you could delete your "whole computer", and there is no `undo`_
+> &#x26A0; CAUTION! _be careful with `rm`, you could delete your "whole computer", and there is no `undo`_
 
 ---
 
@@ -922,7 +922,7 @@ alkanes/cubane.pdb: ASCII text
 
 ```
 
-&#x1F4A1; TIP! _Do not forget to use the `Tab` key to autocomplete directory names and prevent spelling mistakes_
+> &#x1F4A1; TIP! _Do not forget to use the `Tab` key to autocomplete directory names and prevent spelling mistakes_
 
 ---
 
@@ -943,7 +943,7 @@ $ tail -n +2 creatures/unicorn.dat
 $ head -n -1 creatures/unicorn.dat
 ```
 
-&#x1F4A1; TIP! _Do not forget to use `Tab` key to autocomplete file names and prevent spelling mistakes_
+> &#x1F4A1; TIP! _Do not forget to use `Tab` key to autocomplete file names and prevent spelling mistakes_
 
 ---
 
