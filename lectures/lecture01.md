@@ -12,7 +12,6 @@
 
 <hr style="height: 3px; border: none; background-color: black;">
 
----
 
 ## Computer Preparation
 
@@ -108,9 +107,27 @@
 
 ## [Lecture 1 Quiz](https://forms.office.com/r/VJiCRGyzcP)
 
+Complete the quiz while your computer is updating
+
 ---
 
 ## Discussion of Reading Assignment: [Tidy Data (Wickham 2014)](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/literature/Wickham_2014_Tidy_Data.pdf)
+
+---
+
+## Review Quiz 0
+
+<details><summary>Expand</summary>
+<p>
+
+![](Week01_files/quiz0_4.png)
+
+![](Week01_files/quiz0_7.png)
+
+![](Week01_files/quiz0_8.png)
+
+ </p>
+</details>
 
 ---
 
