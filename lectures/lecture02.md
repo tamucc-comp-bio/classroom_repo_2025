@@ -1,7 +1,7 @@
 # Week02 UNIX II
 
 > [!IMPORTANT]
-> [Assignment 1](../assignments/assignment_1_codespaces.md) is due at the beginning of this lecture
+> [Assignment 1](../assignments/assignment_1.md) is due at the beginning of this lecture
 
 > [!NOTE]
 > The [Lecture Stream](https://tamucc.zoom.us/rec/share/mPRmPrj6p4ZmnqEu7EqyqsVOUWPVvROiz-x-j2-BoAQnoNCFVTwCfeuKJFoJNGGn.z1g7STRMBC1dLXib ) will be updated following lecture.
@@ -200,7 +200,7 @@ After you log into the class and get your computer set up, please complete the q
 ---
 
 
-## Review [`assignment_01`](../assignments/assignment_1_codespaces.md) Due Today 
+## Review [`assignment_01`](../assignments/assignment_1.md) Due Today 
 
 <details><summary>Advanced `bash` Commands</summary>
 <p>
@@ -1393,10 +1393,5 @@ Note that some of these commands need to be installed on MacOS using `brew`
 </p>
 </details>
 
-
-## Homework 
-
-* [Assignment_2](../assignments/assignment_2.md)
-
-
+---
 
