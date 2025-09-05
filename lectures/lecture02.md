@@ -507,11 +507,47 @@ $ cut -d";" -f2 ../data/Pacifici2013_data.csv | tail -n +2 | sort | uniq -c | tr
 <details><summary>Reading</summary>
 <p>
 
-[Tidy Data (Wickham 2014)](../literature/Wickham_2014_Tidy_Data.pdf)
-
-![tidy-1](https://r4ds.hadley.nz/images/tidy-1.png)
-
 [Good enough practices (Wilson etal 2017)](../literature/Wilson_etal_2017_good_enough_practices_in_scientific_computing.pdf)
+
+<details><summary>What is the main point of the Wilson etal 2017 manuscript?</summary>
+<p>
+
+![](Week02_files/assignment1_1.png)
+
+place holder
+
+ </p>
+</details>
+
+<details><summary>What do you like about the Wilson etal 2017 manuscript?</summary>
+<p>
+
+![](Week02_files/assignment1_2.png)
+
+place holder
+
+ </p>
+</details>
+
+<details><summary>Do you disagree with Wilson etal 2017 on any of their points?</summary>
+<p>
+
+![](Week02_files/assignment1_3.png)
+
+place holder
+
+ </p>
+</details>
+
+<details><summary>What was confusing or do you have any questions about Wilson etal 2017?</summary>
+<p>
+
+![](Week02_files/assignment1_4.png)
+
+place holder
+
+ </p>
+</details>
 
 </p>
 </details>
@@ -840,7 +876,7 @@ $ sudo chown -R $USER test_dir/
 </p>
 </details>
 
-[Mind Expander 01.04](https://forms.office.com/r/uvi6cGMSMJ)
+[Mind Expander 01.04](https://forms.office.com/r/uvi6cGMSMJ): Take 10 minutes to complete
 
 ---
 
