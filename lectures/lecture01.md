@@ -232,7 +232,7 @@ Complete the quiz while your computer is updating
 <details><summary>click to expand</summary>
 <p>
 
-In a nutshell:
+### Assignment Steps
 
 1. Click the assignment invite link to create your personalized assignment repo
 2. Click the CodeSpaces Link in the Repo
@@ -241,6 +241,43 @@ In a nutshell:
 5. Start at "1. Introducing the Shell" and stop after completing "3. Working with files and directories"
 6. Move your `shell-lesson-data` dir back to the repo
 7. Use `git` to `add`, `commit`, and `push` the changes to the repo back to the primary copy on github.
+
+### Git & GitHub Repository Synchronization
+
+**git add** — “stage it”
+
+* Tells Git *which* changed files you want in the next snapshot.
+* Think: “include this in my next save.”
+* Examples:
+  `git add file.txt` (one file)
+  `git add .` (everything that changed)
+
+**git commit** — “save it (locally)”
+
+* Creates a snapshot of the staged changes *in your computer’s repo* with a message.
+* Doesn’t upload anywhere yet.
+* Example:
+  `git commit -m "Add data loader and tests"`
+
+**git push** — “share it (to GitHub)”
+
+* Sends your local commits to the remote repo (e.g., GitHub).
+* First time on a branch, set the upstream:
+  `git push -u origin main`
+  After that:
+  `git push`
+
+**Quick workflow**
+
+```bash
+# make edits
+git status          # see what's changed (optional but helpful)
+git add <files>     # stage changes
+git commit -m "Concise, meaningful message"
+git push            # publish to GitHub
+```
+
+Tip for messages: use active, present tense (e.g., “Fix typo,” “Add README section”).
 
  </p>
 </details>
