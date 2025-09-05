@@ -111,7 +111,7 @@ Complete the quiz while your computer is updating
 
 ---
 
-## Discussion of Reading Assignment 1: [../literature/Wickham_2014_Tidy_Data.pdf)
+## Discussion of Reading Assignment 1: [Wickham 2014](../literature/Wickham_2014_Tidy_Data.pdf)
 
 <details><summary>What is the main point of the Wickham 2014 manuscript?</summary>
 <p>
