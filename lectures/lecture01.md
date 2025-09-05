@@ -453,6 +453,12 @@ man tree
 The `man` command is nearly universal in displaying the manual for "commands" such as `tree`. Use the `q` keystroke to exit the manual for tree.
 
 ```bash
+# set up assignment 0 in your Ubuntu/Mac terminal on your laptop (not codespaces)
+cd ~
+mkdir Desktop
+wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+unzip -d Desktop shell-lesson-data.zip
+
 # check your directory structure for assignment_0
 tree ~/Desktop/shell-lesson-data
 ```
@@ -503,6 +509,8 @@ ls CSB/unix/solutions
 * The shell is software that controls the [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) and is accessed through a terminal window
 
 * The shell we are using in Ubuntu and MacOS is called `bash`, or Born Again Shell
+
+> &#x26A0; CAUTION! _The default shell language for newer Macs is ofte `zsh`.  You can simply type `bash` when you open your terminal to change to a `bash` terminal. You can also change the default terminal to be `bash` rather than `zsh`.  Ask Chet G. Peetee how._
 
 * `bash` is a [shell scripting](https://en.wikipedia.org/wiki/Shell_script) computer language
 
