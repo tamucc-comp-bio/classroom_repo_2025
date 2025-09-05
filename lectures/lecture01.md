@@ -956,11 +956,3 @@ $ head -n -1 creatures/unicorn.dat
 
 ---
 
-## Homework
-
-* [Assignment_1](../assignments/assignment_1.md)
-
-* [Graduate Student Course Project Ideas](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUOUo2UVRUMVgwTUlQMlpUQzUzOTIzME9LNi4u)
-
----
-
