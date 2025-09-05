@@ -111,7 +111,7 @@ Complete the quiz while your computer is updating
 
 ---
 
-## Discussion of Reading Assignment 1: [Tidy Data (Wickham 2014)](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/literature/Wickham_2014_Tidy_Data.pdf)
+## Discussion of Reading Assignment 1: [../literature/Wickham_2014_Tidy_Data.pdf)
 
 <details><summary>What is the main point of the Wickham 2014 manuscript?</summary>
 <p>
