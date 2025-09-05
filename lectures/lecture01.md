@@ -198,196 +198,196 @@ Complete the quiz while your computer is updating
 * **Most have no questions:** 8/11 (≈73%) said “no questions,” with a couple noting the reading was helpful and something they’ll revisit.
 * **Recurring questions/themes (3/11):**
   
-	<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
-	<p>
+<details><summary>**Fork vs. clone vs. branch:** what each is for and when to use which.</summary>
+<p>
 
-	# Fork
+# Fork
 
-	* **What:** Your own copy of *someone else’s GitHub repo* under your account.
-	* **Where it lives:** On GitHub.
-	* **Why:** Propose changes to a repo you don’t own (via Pull Request).
-	* **Typical flow:** *Fork → clone your fork → branch → commit/push → PR to upstream.*
-	* **Key cmd(s):**
+* **What:** Your own copy of *someone else’s GitHub repo* under your account.
+* **Where it lives:** On GitHub.
+* **Why:** Propose changes to a repo you don’t own (via Pull Request).
+* **Typical flow:** *Fork → clone your fork → branch → commit/push → PR to upstream.*
+* **Key cmd(s):**
 
-	  * *(on GitHub UI)* “Fork”
-	  * `git remote add upstream https://github.com/original/repo.git`
-	  * `git fetch upstream && git merge upstream/main` (keep fork updated)
+  * *(on GitHub UI)* “Fork”
+  * `git remote add upstream https://github.com/original/repo.git`
+  * `git fetch upstream && git merge upstream/main` (keep fork updated)
 
-	# Clone
+# Clone
 
-	* **What:** Download a remote repo (yours or someone else’s) to your computer.
-	* **Where it lives:** On your machine.
-	* **Why:** To work locally.
-	* **Key cmd:** `git clone https://github.com/user/repo.git`
+* **What:** Download a remote repo (yours or someone else’s) to your computer.
+* **Where it lives:** On your machine.
+* **Why:** To work locally.
+* **Key cmd:** `git clone https://github.com/user/repo.git`
 
-	# Branch
+# Branch
 
-	* **What:** A lightweight line of development *inside a single repo*.
-	* **Where it lives:** In your local repo (and on remote once you push).
-	* **Why:** Isolate work without breaking `main`.
-	* **Key cmd(s):**
+* **What:** A lightweight line of development *inside a single repo*.
+* **Where it lives:** In your local repo (and on remote once you push).
+* **Why:** Isolate work without breaking `main`.
+* **Key cmd(s):**
 
-	  * `git switch -c feature-x` (create & switch)
-	  * `git push -u origin feature-x` (publish branch)
+  * `git switch -c feature-x` (create & switch)
+  * `git push -u origin feature-x` (publish branch)
 
-	---
+---
 
-	### Quick choose
+### Quick choose
 
-	* **I want my own copy of a public project to contribute back:** **Fork** (then clone it).
-	* **I just need the code on my laptop:** **Clone**.
-	* **I’m adding a feature or fixing a bug without touching main:** **Branch**.
+* **I want my own copy of a public project to contribute back:** **Fork** (then clone it).
+* **I just need the code on my laptop:** **Clone**.
+* **I’m adding a feature or fixing a bug without touching main:** **Branch**.
 
-	### Mini map
+### Mini map
 
-	```
-	GitHub (original) ──(Fork)──> GitHub (your fork) ──(Clone)──> your laptop
-			                                 └─(Branch)─> feature-x
-	```
-	</p>
-	</details>
+```
+GitHub (original) ──(Fork)──> GitHub (your fork) ──(Clone)──> your laptop
+		                                 └─(Branch)─> feature-x
+```
+</p>
+</details>
+  
+
+<details><summary>**GitHub vs. cloud drives:** how version control differs from typical file storage.</summary>
+<p>
+
+### GitHub (version control) vs. Cloud drives (file storage)
+
+**What it is**
+
+* **GitHub:** A *version control* host. Tracks every change as a commit with author, time, and message; supports branches, merges, and code review.
+* **Cloud drive (e.g., Google Drive/OneDrive/Dropbox):** A *file syncing/storage* service. Keeps files in the cloud and on devices; may keep limited, opaque version history.
+
+**How changes are tracked**
+
+* **GitHub:** Explicit snapshots (`add` → `commit` → `push`). Each commit is permanent, diffable, and attributable.
+* **Cloud drive:** Auto-save overwrites the file; version history exists but is not designed for branching/merging workflows.
+
+**Working in parallel**
+
+* **GitHub:** Create **branches** for independent work; merge with a **pull request**; resolves conflicts line-by-line with diffs.
+* **Cloud drive:** Either live co-editing (Docs/Sheets) or last-writer-wins for files; no true branching or structured merges.
+
+**Review & accountability**
+
+* **GitHub:** Pull requests, inline comments, required reviews, CI checks; `blame` to see who changed what, when, and why.
+* **Cloud drive:** Comments on documents, but no repo-wide review gates or commit metadata.
+
+**Reproducibility**
+
+* **GitHub:** You can check out *any* commit/tag and rebuild exactly; great for code, data pipelines, and manuscripts under source control.
+* **Cloud drive:** You can revert versions, but reconstructing precise states across many files is harder.
+
+**File types**
+
+* **GitHub:** Best for plain text (code, Markdown, CSV). Large/binary files (videos, PSDs) are harder; use Git LFS or a drive.
+* **Cloud drive:** Fine for big/binary files and WYSIWYG docs; not ideal for code collaboration.
+
+**Offline & syncing**
+
+* **GitHub:** Work offline; sync intentionally with `push`/`pull`.
+* **Cloud drive:** Syncs automatically; edits depend on app support for offline.
+
+---
+
+## When to use which
+
+* **Use GitHub** for code, scripts, text-based writing, datasets you want diff/merge, collaboration via branches/PRs, and reproducible snapshots.
+* **Use a cloud drive** for large binaries, drafts that need rich WYSIWYG co-editing, or assets not suited to diffs.
+
+---
+
+## One-liner students can remember
+
+* **Drive = share & sync files.**
+* **GitHub = *track, branch, review,* and reproduce changes to files.**
+</p>
+</details>
+
+
+<details><summary>**Collaboration scale:** small teams vs. large open-source workflows.</summary>
+<p>
+
+yes
+
+</p>
+</details>
   
   
-  * **Core Git/GitHub concepts:** differences among **commits, branches, and pull requests**.
+<details><summary>**Beginner essentials:** which **commands/habits** to master first.</summary>
+<p>
 
-	<details><summary>**GitHub vs. cloud drives:** how version control differs from typical file storage.</summary>
-	<p>
+# core loop
 
-	### GitHub (version control) vs. Cloud drives (file storage)
+**Commands**
 
-	**What it is**
+* `git status` — see what changed.
+* `git add <file>` / `git add .` — stage changes.
+* `git commit -m "Do one thing"` — save locally.
+* `git push` — publish to GitHub.
+* `git pull --rebase` — get latest cleanly.
 
-	* **GitHub:** A *version control* host. Tracks every change as a commit with author, time, and message; supports branches, merges, and code review.
-	* **Cloud drive (e.g., Google Drive/OneDrive/Dropbox):** A *file syncing/storage* service. Keeps files in the cloud and on devices; may keep limited, opaque version history.
+**Habits**
 
-	**How changes are tracked**
+* Make **small commits** (one logical change).
+* Write **imperative messages**: “Add README section”.
+* Run code/tests **before push**.
 
-	* **GitHub:** Explicit snapshots (`add` → `commit` → `push`). Each commit is permanent, diffable, and attributable.
-	* **Cloud drive:** Auto-save overwrites the file; version history exists but is not designed for branching/merging workflows.
+---
 
-	**Working in parallel**
+# branches & review
 
-	* **GitHub:** Create **branches** for independent work; merge with a **pull request**; resolves conflicts line-by-line with diffs.
-	* **Cloud drive:** Either live co-editing (Docs/Sheets) or last-writer-wins for files; no true branching or structured merges.
+**Commands**
 
-	**Review & accountability**
+* `git switch -c feature-x` — create & move to a branch.
+* `git switch main` / `git pull --rebase` — update main.
+* `git merge feature-x` (or PR on GitHub) — bring work in.
+* `git log --oneline --graph --decorate --all` — visualize history.
+* `git diff` — review what you’re about to commit.
 
-	* **GitHub:** Pull requests, inline comments, required reviews, CI checks; `blame` to see who changed what, when, and why.
-	* **Cloud drive:** Comments on documents, but no repo-wide review gates or commit metadata.
+**Habits**
 
-	**Reproducibility**
+* **One branch per task.**
+* Open **small PRs**; ask for one review.
+* Add a **.gitignore** early.
 
-	* **GitHub:** You can check out *any* commit/tag and rebuild exactly; great for code, data pipelines, and manuscripts under source control.
-	* **Cloud drive:** You can revert versions, but reconstructing precise states across many files is harder.
+---
 
-	**File types**
+# safe fixes & sync
 
-	* **GitHub:** Best for plain text (code, Markdown, CSV). Large/binary files (videos, PSDs) are harder; use Git LFS or a drive.
-	* **Cloud drive:** Fine for big/binary files and WYSIWYG docs; not ideal for code collaboration.
+**Commands**
 
-	**Offline & syncing**
+* `git restore <file>` — discard unstaged edits to a file.
+* `git restore --staged <file>` — unstage.
+* `git commit --amend` — fix last commit (only if not pushed).
+* `git revert <sha>` — undo a bad pushed commit (safe).
+* `git fetch` / `git remote -v` — see & update remotes.
 
-	* **GitHub:** Work offline; sync intentionally with `push`/`pull`.
-	* **Cloud drive:** Syncs automatically; edits depend on app support for offline.
+**Habits**
 
-	---
+* **Never commit secrets** (use env vars).
+* **Pull before you push** on shared branches.
+* Skim the **diff in the PR**; explain *why* in the description.
 
-	## When to use which
+---
 
-	* **Use GitHub** for code, scripts, text-based writing, datasets you want diff/merge, collaboration via branches/PRs, and reproducible snapshots.
-	* **Use a cloud drive** for large binaries, drafts that need rich WYSIWYG co-editing, or assets not suited to diffs.
+## One-minute workflow (post-setup)
 
-	---
+```bash
+git switch -c feature-x
+# edit files
+git status
+git add .
+git diff --staged        # quick self-review
+git commit -m "Implement feature X"
+git push -u origin feature-x
+# open PR on GitHub
+```
 
-	## One-liner students can remember
+> Memory hooks: **status → add → commit → push**, small steps, clear messages, branch per task, review before merge.
 
-	* **Drive = share & sync files.**
-	* **GitHub = *track, branch, review,* and reproduce changes to files.**
-	</p>
-	</details>
- 
-  	<details><summary>**Collaboration scale:** small teams vs. large open-source workflows.</summary>
-	<p>
-	
-	yes
-	
-  	</p>
-	</details>
-  
-    	<details><summary>**Beginner essentials:** which **commands/habits** to master first.</summary>
-	<p>
-	
-	# core loop
-
-	**Commands**
-
-	* `git status` — see what changed.
-	* `git add <file>` / `git add .` — stage changes.
-	* `git commit -m "Do one thing"` — save locally.
-	* `git push` — publish to GitHub.
-	* `git pull --rebase` — get latest cleanly.
-
-	**Habits**
-
-	* Make **small commits** (one logical change).
-	* Write **imperative messages**: “Add README section”.
-	* Run code/tests **before push**.
-
-	---
-
-	# branches & review
-
-	**Commands**
-
-	* `git switch -c feature-x` — create & move to a branch.
-	* `git switch main` / `git pull --rebase` — update main.
-	* `git merge feature-x` (or PR on GitHub) — bring work in.
-	* `git log --oneline --graph --decorate --all` — visualize history.
-	* `git diff` — review what you’re about to commit.
-
-	**Habits**
-
-	* **One branch per task.**
-	* Open **small PRs**; ask for one review.
-	* Add a **.gitignore** early.
-
-	---
-
-	# safe fixes & sync
-
-	**Commands**
-
-	* `git restore <file>` — discard unstaged edits to a file.
-	* `git restore --staged <file>` — unstage.
-	* `git commit --amend` — fix last commit (only if not pushed).
-	* `git revert <sha>` — undo a bad pushed commit (safe).
-	* `git fetch` / `git remote -v` — see & update remotes.
-
-	**Habits**
-
-	* **Never commit secrets** (use env vars).
-	* **Pull before you push** on shared branches.
-	* Skim the **diff in the PR**; explain *why* in the description.
-
-	---
-
-	## One-minute workflow (post-setup)
-
-	```bash
-	git switch -c feature-x
-	# edit files
-	git status
-	git add .
-	git diff --staged        # quick self-review
-	git commit -m "Implement feature X"
-	git push -u origin feature-x
-	# open PR on GitHub
-	```
-
-	> Memory hooks: **status → add → commit → push**, small steps, clear messages, branch per task, review before merge.
-	
-  	</p>
-	</details>
+</p>
+</details>
 	
 
 	**TL;DR:** Overall confidence is high; targeted clarification is needed on fork/clone/branch, core workflow concepts, and practical beginner commands.
