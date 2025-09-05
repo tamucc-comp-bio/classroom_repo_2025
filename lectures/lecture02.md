@@ -1019,6 +1019,11 @@ $ sudo chown -R $USER test_dir/
 
 ---
 
+## [File Path Scavenger Hunt!](https://forms.cloud.microsoft/r/Zq7avbJpqu)
+
+Take 10 minutes to complete the scavenger hunt.
+
+---
 
 ## Computer Programming with `bash` (CSB 1.7-1.9)
 
