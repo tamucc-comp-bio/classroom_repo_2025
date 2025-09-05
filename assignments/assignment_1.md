@@ -114,7 +114,7 @@ Work through the remainder of [lecture 1](../lectures/lecture01.md).  To help yo
 code blocks
 ```
 
-Complete [Mindexpander 01.02](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUOUo2UVRUMVgwTUlQMlpUQzUzOTIzME9LNi4u) by answering the question(s) in the online form and submitting.  You must be logged into your TAMUCC email account to have your identity attached to your answers. 
+Complete [Mindexpander 01.02](https://forms.cloud.microsoft/r/M9XnBAtiUw) by answering the question(s) in the online form and submitting.  You must be logged into your TAMUCC email account to have your identity attached to your answers. 
 
 * **_You can resubmit your answers as neccessary_**
 
