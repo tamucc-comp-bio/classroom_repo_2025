@@ -111,7 +111,51 @@ Complete the quiz while your computer is updating
 
 ---
 
-## Discussion of Reading Assignment: [Tidy Data (Wickham 2014)](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/literature/Wickham_2014_Tidy_Data.pdf)
+## Discussion of Reading Assignment 1: [Tidy Data (Wickham 2014)](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/literature/Wickham_2014_Tidy_Data.pdf)
+
+<details><summary>What is the main point of the Wickham 2014 manuscript?</summary>
+<p>
+
+![](Week01_files/asssignment0_1.png)
+
+ </p>
+</details>
+
+<details><summary>What do you like about the Wickham 2014 manuscript?</summary>
+<p>
+
+![](Week01_files/asssignment0_2.png)
+
+ </p>
+</details>
+
+<details><summary>Do you disagree with Wickham 2014 on any of their points?</summary>
+<p>
+
+![](Week01_files/asssignment0_3.png)
+
+ </p>
+</details>
+
+<details><summary>What was confusing or do you have any questions about Wickham 2014?</summary>
+<p>
+
+![](Week01_files/asssignment0_4.png)
+
+ </p>
+</details>
+
+---
+
+## Discussion of Reading Assignment 2: [Intro to GitHub](https://classroom.github.com/a/C_SLS9P8)
+
+<details><summary>Do you have any questions about the Intro to Github reading?</summary>
+<p>
+
+![](Week01_files/asssignment0_5.png)
+
+ </p>
+</details>
 
 ---
 
