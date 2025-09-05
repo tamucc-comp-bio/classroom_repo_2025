@@ -14,14 +14,6 @@
 
 ---
 
-## [Lecture 1 Quiz](https://forms.office.com/r/VJiCRGyzcP)
-
----
-
-## Discussion of Reading Assignment: [Tidy Data (Wickham 2014)](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/literature/Wickham_2014_Tidy_Data.pdf)
-
----
-
 ## Computer Preparation
 
 > [!IMPORTANT]
@@ -111,6 +103,14 @@
 
  </p>
 </details>
+
+---
+
+## [Lecture 1 Quiz](https://forms.office.com/r/VJiCRGyzcP)
+
+---
+
+## Discussion of Reading Assignment: [Tidy Data (Wickham 2014)](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/literature/Wickham_2014_Tidy_Data.pdf)
 
 ---
 
