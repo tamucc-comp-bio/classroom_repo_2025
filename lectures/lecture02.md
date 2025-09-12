@@ -467,7 +467,17 @@ $ cut -d";" -f2 ../data/Pacifici2013_data.csv | tail -n +2 | sort | uniq -c | tr
 
 ![](Week02_files/assignment1_1.png)
 
-place holder
+**Core takeaway:** Wilson et al. (2017) argues that many scientists lack formal computing training, and offers practical, accessible guidelines—covering data management, simple coding, version control, documentation, and project organization—to reduce errors, improve efficiency, and make research reproducible.
+
+**Key points:**
+
+* Scientists commonly use computers without proper training, leading to inefficiencies and data loss.
+* The paper provides beginner-friendly tools and minimum best practices anyone can adopt.
+* Emphasis on organizing projects for human and machine readability.
+* Focus on reproducibility, reliability, and collaboration through clear code, data standards, and documentation.
+* Goal is optimization of everyday research workflows, not advanced techniques.
+
+---
 
  </p>
 </details>
@@ -477,7 +487,24 @@ place holder
 
 ![](Week02_files/assignment1_2.png)
 
-place holder
+**Overall sentiment**
+
+* Practical, to-the-point, and beginner-friendly without being overwhelming.
+
+**Top themes**
+
+* **Accessibility:** Acknowledges most scientists aren’t formally trained; “easier is better” and welcoming to newcomers.
+* **Actionability:** Concrete, achievable steps for data management, file/directory setup, versioning, and documentation.
+* **Reproducibility & collaboration:** Helps your future self and teammates find, understand, and reuse work.
+* **Clarity & organization:** Clear breakdowns of concepts and “what to do,” making it simple to follow.
+
+**Standout features**
+
+* Structured format (boxes/sections) and a summary table that functions like a cheat sheet.
+* Realistic examples that show what good practice looks like in practice.
+* Logical organization of reading sections that guides the reader smoothly.
+
+---
 
  </p>
 </details>
@@ -487,7 +514,20 @@ place holder
 
 ![](Week02_files/assignment1_3.png)
 
-place holder
+**Overall verdict**
+
+* **No disagreements.** Respondents broadly agree with Wilson et al. (2017) and found the guidance accurate and useful.
+
+**Why they agree**
+
+* The points match real-world pain: many have made or fixed the exact mistakes the paper addresses.
+* The low barrier, “good-enough” practices are practical and helpful—especially for beginners.
+
+**Nuanced caveat raised by a few**
+
+* While the advice is great for getting started, **“good enough” may fall short** for advanced users or high-stakes/complex projects, where stricter practices may be needed.
+
+---
 
  </p>
 </details>
@@ -497,7 +537,52 @@ place holder
 
 ![](Week02_files/assignment1_4.png)
 
-place holder
+## What felt confusing / open questions
+
+* **Collaboration tools:** “Is Word/Google Docs good for manuscripts?” “For theses/papers, Google Docs or plain text in version control?”
+* **Jargon & workflow:** Directories and “tracking changes” were hard to follow.
+* **Data size:** How advice scales to very small vs. very large datasets.
+* **Rigor thresholds:** “When do we move from ‘good enough’ to fully tidy/strict practices?”
+* **Provenance:** Want a concrete example of how to record data-processing steps.
+* Some respondents had **no questions**.
+
+## Quick, practical answers
+
+* **Word/Google Docs vs. plain text + Git**
+
+  * *Good:* Docs/Word are great for early drafting, comments, and broad coauthoring.
+  * *Better for reproducibility:* Plain text (Markdown/LaTeX) in Git. Hybrid works well: draft in Google Docs → freeze a submission version in Markdown/LaTeX under Git (or use Overleaf with Git).
+  * *Rule of thumb:* If you need precise version history, automation, and reproducibility, prefer plain text + Git.
+* **Directories & “track changes” (cheat sheet)**
+
+  * **Directories:** `project/` → `data_raw/`, `data_clean/`, `scripts/`, `results/`, `docs/`, `README.md`.
+  * **Tracking changes:** Prefer Git over Word “Track Changes.” Use branches/PRs for review; keep commit messages meaningful.
+* **Dataset size**
+
+  * **Small (MBs):** Keep data in the repo.
+  * **Medium/Large (GB+):** Don’t store raw in Git. Store externally (OSF/Zenodo/S3/Dataverse); keep *checksums + metadata* and *download scripts* in the repo. Consider DVC or git-annex.
+* **When to go beyond “good enough” to tidy/strict**
+
+  * Switch **early** if any of these are true: >1 collaborator, public release, analysis will be rerun, multiple datasets/iterations, or ≥\~100 files. Tidy data from the start prevents rework later.
+* **How to record processing steps (minimal template)**
+
+  * Keep one of these in `docs/` or project root:
+
+    * **Processing log (Markdown):**
+
+      ```
+      # Data Processing Log
+      ## 2025-09-12
+      - Input: data_raw/fish_survey.csv (sha256: abc123…)
+      - Script: scripts/01_clean.R (v1.2, commit 3f7c2d)
+      - Params: min_count=5, drop_na=true
+      - Output: data_clean/fish_survey_clean.csv (rows: 12,345)
+      - Notes: Removed 23 rows with missing site_id.
+      ```
+    * **Scripted report:** Use an R Markdown / Jupyter notebook that reads raw → writes clean, with parameters and session info.
+    * **Makefile / workflow:** Encode steps as targets (e.g., `make data_clean/fish_survey_clean.csv`), which documents order and dependencies automatically.
+
+---
 
  </p>
 </details>
@@ -1383,5 +1468,6 @@ Note that some of these commands need to be installed on MacOS using `brew`
 </details>
 
 ---
+
 
 
