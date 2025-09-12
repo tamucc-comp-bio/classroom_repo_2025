@@ -546,13 +546,13 @@ $ cut -d";" -f2 ../data/Pacifici2013_data.csv | tail -n +2 | sort | uniq -c | tr
 * **Provenance:** Want a concrete example of how to record data-processing steps.
 * Some respondents had **no questions**.
 
-## Quick, practical answers
+## Answers
 
 * **Word/Google Docs vs. plain text + Git**
 
   * *Good:* Docs/Word are great for early drafting, comments, and broad coauthoring.
-  * *Better for reproducibility:* Plain text (Markdown/LaTeX) in Git. Hybrid works well: draft in Google Docs → freeze a submission version in Markdown/LaTeX under Git (or use Overleaf with Git).
-  * *Rule of thumb:* If you need precise version history, automation, and reproducibility, prefer plain text + Git.
+  * *Better for maniacal control, reproducibility:* Plain text (Markdown/LaTeX) in Git. Hybrid works well: draft in Google Docs → freeze a submission version in Markdown/LaTeX under Git (or use Overleaf with Git).  I use word.  Some prefer LaTeX.
+  * *Rule of thumb:* I generally think word is "good enough" for manuscripts!. md is all that github understands, so it's best for documenting
 * **Directories & “track changes” (cheat sheet)**
 
   * **Directories:** `project/` → `data_raw/`, `data_clean/`, `scripts/`, `results/`, `docs/`, `README.md`.
@@ -563,7 +563,7 @@ $ cut -d";" -f2 ../data/Pacifici2013_data.csv | tail -n +2 | sort | uniq -c | tr
   * **Medium/Large (GB+):** Don’t store raw in Git. Store externally (OSF/Zenodo/S3/Dataverse); keep *checksums + metadata* and *download scripts* in the repo. Consider DVC or git-annex.
 * **When to go beyond “good enough” to tidy/strict**
 
-  * Switch **early** if any of these are true: >1 collaborator, public release, analysis will be rerun, multiple datasets/iterations, or ≥\~100 files. Tidy data from the start prevents rework later.
+  * This is up to you.  I still think I'm in the good-enough phase!
 * **How to record processing steps (minimal template)**
 
   * Keep one of these in `docs/` or project root:
@@ -1468,6 +1468,7 @@ Note that some of these commands need to be installed on MacOS using `brew`
 </details>
 
 ---
+
 
 
 
