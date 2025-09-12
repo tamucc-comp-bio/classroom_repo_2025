@@ -616,6 +616,4 @@ rm -rf admesh2tsv
 ---
 
 
-## HOMEWORK
-[Assignment 3](../assignments/assignment_3.md)
 
