@@ -112,6 +112,8 @@
 ## II. Go Over Assignment 02
 
 * [Mind Expander 01.04](https://forms.office.com/r/uvi6cGMSMJ)
+* [File Path Scavenger Hunt!](https://forms.cloud.microsoft/r/Zq7avbJpqu)
+* [Non-TAMUCC Students: File Path Scavenger Hunt!](https://forms.cloud.microsoft/r/036fdetK5g)
 * [Exercise 1.10.2 Hormone Levels in Baboons](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUQldJQTVHMTlYMFVYTkhZSDBZR1A0Q1E2Ny4u)
 * [Exercise 1.10.3 Plant-Pollinator Networks](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMlpVSUQ0U1hTSFZERDE1WUdZWjRYUlhaWi4u)
 
@@ -567,6 +569,7 @@ rm -rf admesh2tsv
 ```
 
 ---
+
 
 
 
