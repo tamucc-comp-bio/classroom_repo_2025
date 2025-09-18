@@ -1095,6 +1095,8 @@ $ sudo chown -R $USER test_dir/
 
 ## [File Path Scavenger Hunt!](https://forms.cloud.microsoft/r/Zq7avbJpqu)
 
+* [Non-TAMUCC Students: File Path Scavenger Hunt!](https://forms.cloud.microsoft/r/036fdetK5g)
+
 Take 10 minutes to complete the scavenger hunt.
 
 ---
@@ -1468,6 +1470,7 @@ Note that some of these commands need to be installed on MacOS using `brew`
 </details>
 
 ---
+
 
 
 
