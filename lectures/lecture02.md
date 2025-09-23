@@ -4,8 +4,8 @@
 > [Assignment 1](../assignments/assignment_1.md) is due at the beginning of this lecture
 
 > [!NOTE]
-> The [Lecture Stream](https://tamucc.zoom.us/rec/share/mPRmPrj6p4ZmnqEu7EqyqsVOUWPVvROiz-x-j2-BoAQnoNCFVTwCfeuKJFoJNGGn.z1g7STRMBC1dLXib ) will be updated following lecture.
-> Passcode: 1Y7Kk%?4 
+> The [Lecture Stream 2025](https://tamucc.zoom.us/rec/play/pfgVVA9Bsk-di4MUxhHCxwL9kKJFOqZNeqw9ZgNV59MMlaxYxJaARqcDpYSbh0rZRK5iv1RJB8dUe29l.0g9hG3R7k_b1Hqyz) will be updated following lecture.
+> Passcode: !N6*?2HL
 
 > [!NOTE]
 > I converted the [**Lecture_02 Slides**](Week02_files/Lecture02_WelcomeToTheMatrix.pdf)  to a more screen-splitting friendly format here in GitHub.
@@ -1470,6 +1470,7 @@ Note that some of these commands need to be installed on MacOS using `brew`
 </details>
 
 ---
+
 
 
 
