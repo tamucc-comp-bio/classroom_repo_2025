@@ -5,9 +5,8 @@
 > [Assignment 2](../assignments/assignment_2.md) is due at the beginning of this lecture
 
 > [!NOTE]
-> The [Lecture Stream](https://tamucc.zoom.us/rec/share/ysyGalrSfN7BLqY7l8Q-Gm3OWrjZvYNu5GMak06BseQF19GSQkN-8EfQL7HQA_8.c2Ek6NPfPozlHAWU) will be updated following lecture.
-> Passcode: Ys.4!Imi
-
+> The [Lecture Stream 2025](https://tamucc.zoom.us/rec/play/aq7l-IbbmYNjOPABMHWggcKG-f_xJifCB_GEPQB-PW5YeJzsCmjrtSrZfhJW7Wca_WR5bdg4L7pun4Dm.ZcxgjLKiglMsTD9_) will be updated following lecture.
+> Passcode: ^Frf3nM9
 
 ---
 
@@ -569,6 +568,7 @@ rm -rf admesh2tsv
 ```
 
 ---
+
 
 
 
