@@ -4,14 +4,13 @@
 > [Assignment 0](../assignments/assignment_0_codespaces.md) is due at the beginning of this lecture
 
 > [!NOTE]
-> The [Lecture Stream](https://tamucc.zoom.us/rec/share/UQb7AOLp98Jf2AK4TpVBCS4WDkqTVTou1YRBltp6DmGmg5q-UQj8QQOfgY4xH5rF.wCD5QvPeyB0h2wio) will be updated following lecture.
-> Passcode: f9$KsB%B
+> The [Lecture Stream 2025](https://tamucc.zoom.us/rec/play/UhvJmtYJYRIVJ1ifqNm_Xj0n1ytptIXmbL-ggFJbbH9Cn3D34PNxkhQBUbnAJcotQFlBtry3XH__UYs7.k3kF7aFG1KF6Ks98) will be updated following lecture.
+> Passcode: MCTiZC0*
 
 > [!NOTE]
 > I have converted the [Lecture 01 Slides](Week01_files/Lecture01_WelcomeToTheMatrix.pdf) to a more screen-splitting friendly format below.
 
 <hr style="height: 3px; border: none; background-color: black;">
-
 
 ## Computer Preparation
 
