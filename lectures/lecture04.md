@@ -709,33 +709,33 @@ Git can get confused if you are not dilligent in your pattern of adding and comi
 
   Incomplete commits can occur when files are not removed within git, changes are made but not added, etc..  The solution is to rectify these conflicts.
 
-    ```bash
-    # make file
-    $ touch barnacles.txt
+```bash
+# make file
+$ touch barnacles.txt
 
-    # mistakenly commit changes without adding
-    $ git commit -m "added barnacles.txt"
+# mistakenly commit changes without adding
+$ git commit -m "added barnacles.txt"
 
-    On branch master
-    Untracked files:
-            barnacles.txt
+On branch master
+Untracked files:
+		barnacles.txt
 
-    nothing added to commit but untracked files present
+nothing added to commit but untracked files present
 
-    # fix by adding then committing
-    $ git add barnacles.txt
-    $ git commit -m "added barnacles.txt"
-    ```
+# fix by adding then committing
+$ git add barnacles.txt
+$ git commit -m "added barnacles.txt"
+```
 
 2. Unstaging Files
 
   You may have added files to the snapshot staging area by mistake.  To unstage them:
   (do not type this in, it is an example)
 
-    ```bash
-    #do not type this into your terminal
-    $ git reset HEAD filetounstage.txt
-    ```
+```bash
+#do not type this into your terminal
+$ git reset HEAD filetounstage.txt
+```
 
 ---
 </p>
@@ -897,6 +897,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
