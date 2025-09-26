@@ -815,6 +815,7 @@ Inevitably, you will run into a conflict and your repo will not sync with github
 * Every directory should contain a descriptive `README.md`
 	* this file is automatically displayed when navigating directories on GitHub.
 	* yes, part of the intention here is to discourage you from making too many dirs.  Ask yourself, is this new dir I'm thinking of worth writing a `README.md` for?  The answer is usually no.
+ 	* with the advent of LLM, I like to have ChatGPT take the first pass at making the `README.md`. Can you think of what you might want to show ChatGPT so that it does a good job of making the `README.md`?
 
 * Fewer directories is more (better)
 
@@ -897,6 +898,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
