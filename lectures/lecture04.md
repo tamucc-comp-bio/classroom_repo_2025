@@ -106,6 +106,8 @@ ___
 
 ### I. [Quiz 4](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUNU1IUUg4Nzc1SU9KQVNRTVc0TU0xMFI1Sy4u)
 
+	* [Quiz 4 Non-TAMUCC Students](https://forms.cloud.microsoft/r/yHephrmEfk)
+
 ---
 
 ### II. [Assignment 3](../assignments/assignment_3.md) Triage
@@ -898,6 +900,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
