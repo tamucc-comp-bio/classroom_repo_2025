@@ -199,6 +199,95 @@ Here are some &#x1F4A1; tips to help you get the most out of working with ChatGP
 
 ---
 
+<details><summary>Vibe Coding</summary>
+<p>
+
+Vibe Coding, [coined by Andrej Karpathy in Feb 2025 on X](https://x.com/karpathy/status/1886192184808149383), is a specific strategy for integrating LLM into the code creation, but has become the widely adopted term for employing LLM to complete coding tasks, regardless of the strategy.
+
+---
+
+## What Is Vibe Coding?
+
+**Definition:** An improvisational, intent‑first coding style where you state your goal in natural language, generate or sketch code fast (often with an LLM), run it, read errors/output, and iterate in short loops—**then** consolidate into robust artifacts (scripts, tests, docs).
+
+---
+
+**Core loop:**
+
+1. **State the vibe** (goal + constraints) in plain language.
+2. **Generate a first pass** (you/LLM) and run it on a small sample.
+3. **Tight iteration:** paste errors/outputs back; refine prompts/code.
+4. **Snapshot what works**; name functions and files clearly.
+5. **Harden:** add flags, checks, docs, and minimal tests.
+
+**Good for:** early exploration, data checks, API pokes, shaping file formats, UI/UX sketches.
+
+**Not for:** final analyses, production pipelines, papers’ main results without tests and documentation.
+
+---
+
+## Responsible Vibe Coding in Science
+
+* **Reproducibility:** always end with a script and a README.
+* **Data protection:** never overwrite raw data; keep `data/` read‑only using `chmod`.
+* **Traceability:** save commands in a log file; prefer relative paths.
+* **Time‑boxing:** decide up front (e.g., 30 minutes) before refactor.
+* **Small steps:** run on a tiny subset first.
+
+---
+
+## LLM Copilot Prompts (Templates)
+
+* **Scaffold:** “Write a Bash script with `getopts` that … Use `set -euo pipefail` and helpful error messages.”
+	*  `getopts` is a command used in a bash script to read in options such as `-o` when the script is run
+ 	*  `set -euo pipefail` is a (bash/zsh/ksh) command that makes shell scripts fail fast and catch common bugs
+* **Error‑driven:** “Here’s the error + the snippet; fix only what’s necessary and explain the change in one line.”
+* **Explain:** “Given this `awk` block, annotate each line with comments.”
+* **Refactor:** “Split this long pipeline into named functions with clear variable names.”
+* **Docs:** “Draft a concise README with inputs, outputs, and commands to reproduce.”
+
+(Students copy/paste terminal output or error messages back to the model as needed.)
+
+---
+
+## Common Pitfalls & Fixes
+
+* **Overwriting raw data:** enforce outputs to `outputs/` only.
+* **No Absolute paths:** relative paths keep repos portable.
+* **CSV quoting/comma issues:** use `csvkit` or tsv files for reliable parsing.
+* **Unsaved spikes:** capture working commands in scripts immediately.
+* **Scope creep:** time‑box spikes; create TODOs for later.
+
+---
+
+## Notes
+
+* Keep directories minimal: `data/`, `bin/`, `outputs/`, `scratch/`.
+* Show `tree` to visualize structure.
+* For Windows users, use WSL terminal;
+* Use `csvkit`, a popular suite of Unix-style CLI tools for converting to and working with CSV file
+	* Installation: `sudo apt install csvkit`; `brew install csvkit`
+* Demo on a subset first (e.g., `head -n 1001`) to keep iteration fast.
+* Emphasize that vibe coding is **a phase**, not a destination.
+
+</p>
+</details>
+
+---
+
+<details><summary>Vibe Coding Enviroments</summary>
+<p>
+
+[Gemini CLI](https://github.com/google-gemini/gemini-cli)
+
+![](https://github.com/google-gemini/gemini-cli/blob/main/docs/assets/gemini-screenshot.png)
+
+</p>
+</details>
+
+
+---
+
 ### IV. Version Control
 
 <details><summary>What is version control?</summary>
@@ -732,6 +821,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
