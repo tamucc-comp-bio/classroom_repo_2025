@@ -282,6 +282,10 @@ Vibe Coding, [coined by Andrej Karpathy in Feb 2025 on X](https://x.com/karpathy
 
 ![](https://github.com/google-gemini/gemini-cli/blob/main/docs/assets/gemini-screenshot.png)
 
+[Codex CLI](https://github.com/openai/codex)
+
+![](https://github.com/openai/codex/blob/main/.github/codex-cli-splash.png)
+
 </p>
 </details>
 
@@ -821,6 +825,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
