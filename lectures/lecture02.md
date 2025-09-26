@@ -975,7 +975,7 @@ $ sudo chown -R $USER test_dir/
 <details><summary>Use `man`, `-h`, `--help`, or web search to get help </summary>
 <p>
 
-#### `man` <command>    show manual for command
+#### `man` [command]    show manual for command
   
 #### [command]` -h`     if man does not work, this could show manual for command
   
@@ -1470,6 +1470,7 @@ Note that some of these commands need to be installed on MacOS using `brew`
 </details>
 
 ---
+
 
 
 
