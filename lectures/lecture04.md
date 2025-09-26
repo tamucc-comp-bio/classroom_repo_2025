@@ -104,7 +104,7 @@ ___
 
 ## In Class Activities
 
-### I. [Quiz!](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUNU1IUUg4Nzc1SU9KQVNRTVc0TU0xMFI1Sy4u)
+### I. [Quiz 4](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUNU1IUUg4Nzc1SU9KQVNRTVc0TU0xMFI1Sy4u)
 
 ---
 
@@ -732,6 +732,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
