@@ -275,7 +275,7 @@ Vibe Coding, [coined by Andrej Karpathy in Feb 2025 on X](https://x.com/karpathy
 
 ---
 
-<details><summary>Vibe Coding Enviroments</summary>
+<details><summary>Vibe Coding Environments</summary>
 <p>
 
 [Gemini CLI](https://github.com/google-gemini/gemini-cli)
@@ -897,6 +897,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
