@@ -320,7 +320,7 @@ Keep it short, structured, and commit it to the repo.
 
 ---
 
-## Prompt File Template
+## Prompt File Template  (`PROMPT.md`)
 
 ```
 # Objective
@@ -895,6 +895,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
