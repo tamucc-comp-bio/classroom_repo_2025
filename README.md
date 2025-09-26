@@ -113,7 +113,7 @@ the hidden section ends here
 
 * [09/26  Week04 Version Control w/ Git](lectures/lecture04.md)
 
-  * [Exam_1,  Due 10/03](https://classroom.github.com/a/et6ym0V4)
+  * [Exam_1,  Due 10/03](https://classroom.github.com/a/aDSDqYJ5)
 
  <!-- 
  
