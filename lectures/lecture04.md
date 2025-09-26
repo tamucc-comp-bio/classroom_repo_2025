@@ -282,9 +282,79 @@ Vibe Coding, [coined by Andrej Karpathy in Feb 2025 on X](https://x.com/karpathy
 
 ![](https://github.com/google-gemini/gemini-cli/blob/main/docs/assets/gemini-screenshot.png)
 
+---
+
 [Codex CLI](https://github.com/openai/codex)
 
 ![](https://github.com/openai/codex/blob/main/.github/codex-cli-splash.png)
+
+---
+
+## Structured Vibe Coding
+
+Some best practices in vibe coding are taking shape along with tools like Gemini CLI, Codex CLI, and Claude Code.  I've yet to try these because I'm typcially satisfied with using the "old-fashioned" chat interface, but you might want to give one of these a shot.  Gemini CLI's free version is pretty generous with prompt allowances and features.
+
+---
+
+## Prompt File
+
+Prompt files are natively supported by Gemini CLI and others. I think it's good practice to make one even if you're not using a tool like Gemini CLI.
+
+**What to put in the file:**
+
+1. Objective (1–3 lines): exact outcome, not a vibe.
+
+2. Inputs/Outputs: file paths, schemas, acceptable ranges.
+
+3. Constraints: tools available (bash, csvkit), runtime limits, no touching data/.
+
+4. Interfaces: CLI flags, expected commands, examples.
+
+5. Mini-evals: a tiny I/O pair to test correctness quickly.
+
+6. Guardrails: failure conditions, logging, reproducibility notes (relative paths, seed, README).
+
+7. Context pointers: where the model should look (folder tree, key files). In Copilot/Gemini, this is exactly what the prompt/system file is for.
+
+Keep it short, structured, and commit it to the repo.
+
+---
+
+## Prompt File Template
+
+```
+# Objective
+Compute mean, SD, and count of fish `n` by (protected_status × trophic_group) from two tidy CSVs and write `outputs/means_sd_count.csv`.
+
+# Inputs
+- data/reef_fish_counts.csv  (site_id, date, habitat, species, trophic_group, n:int)
+- data/sites.csv             (site_id, island, depth_m, protected_status)
+
+# Output
+- outputs/means_sd_count.csv (protected_status, trophic_group, mean_n, sd_n, count)
+
+# Constraints
+- Environment: bash + csvkit; no Python/R.
+- Reproducible: use relative paths; never modify files in data/.
+- Performance: handle 1e6 rows via streaming where possible.
+
+# Interface
+Example:
+./bin/summarize_means.sh -c data/reef_fish_counts.csv -s data/sites.csv -o outputs/means_sd_count.csv --filter-trophic=herbivore,omnivore
+
+# Mini-eval
+Input (toy): data/toy_counts.csv + data/toy_sites.csv
+Expected row: "Protected,herbivore,12.0,4.2,5" present.
+
+# Guardrails
+- Exit non-zero if any group has count < 3.
+- Validate numeric columns; print row counts to stderr.
+
+# Context pointers
+Please read: README.md, bin/summarize_means.sh (if present), `tree` of repo.
+```
+
+---
 
 </p>
 </details>
@@ -825,6 +895,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
