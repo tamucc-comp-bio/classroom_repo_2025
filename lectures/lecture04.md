@@ -292,13 +292,15 @@ Vibe Coding, [coined by Andrej Karpathy in Feb 2025 on X](https://x.com/karpathy
 
 ## Structured Vibe Coding
 
-Some best practices in vibe coding are taking shape along with tools like Gemini CLI, Codex CLI, and Claude Code.  I've yet to try these because I'm typcially satisfied with using the "old-fashioned" chat interface, but you might want to give one of these a shot.  Gemini CLI's free version is pretty generous with prompt allowances and features.
+Some best practices in vibe coding are taking shape along with tools like Gemini CLI, Codex CLI, and Claude Code.  I've yet to try these because I'm typcially satisfied with using the "old-fashioned" chat interface, but you might want to give one of these a shot.  Gemini CLI's free version is pretty generous with prompt allowances and features. One important recent development is the birth of the "prompt file".
 
 ---
 
 ## Prompt File
 
-Prompt files are natively supported by Gemini CLI and others. I think it's good practice to make one even if you're not using a tool like Gemini CLI.
+Prompt files contain basic information about your project to guide the LLM.  They are natively supported by Gemini CLI and others. I think it's good practice to make one even if you're not using a tool like Gemini CLI.
+
+It turns “vibes” into stable constraints the model can’t forget, keeps teams aligned, and makes your LLM runs reproducible (the file is versioned). This is quickly becoming a best practice across vibe-coding write-ups and guides.
 
 **What to put in the file:**
 
@@ -895,6 +897,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
