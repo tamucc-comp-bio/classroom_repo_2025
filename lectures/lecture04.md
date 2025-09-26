@@ -106,7 +106,7 @@ ___
 
 ### I. [Quiz 4](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUNU1IUUg4Nzc1SU9KQVNRTVc0TU0xMFI1Sy4u)
 
-	* [Quiz 4 Non-TAMUCC Students](https://forms.cloud.microsoft/r/yHephrmEfk)
+[Quiz 4 Non-TAMUCC Students](https://forms.cloud.microsoft/r/yHephrmEfk)
 
 ---
 
@@ -900,6 +900,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
