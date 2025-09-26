@@ -12,7 +12,7 @@ ___
 ## Computer Preparation
 
 > [!IMPORTANT]
-> Make sure your computer is ready to complete the assignment
+> Make sure your computer is ready for the lecture
 
 <details><summary>Windows, Mac, Linux</summary>
 <p>
@@ -732,5 +732,6 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
