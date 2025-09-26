@@ -795,7 +795,7 @@ $ git reset HEAD filetounstage.txt
  
 Inevitably, you will run into a conflict and your repo will not sync with github, producing errors
 
-&#x1F4A1; TIP! _To solve, "burn it down" and start over.  Make a new repo, and copy the contents of your old repo to the new one._
+&#x1F4A1; TIP! _To solve, "burn it down" and start over. _
 
 * Rename the repo on your computer to ORIGINALNAME_old
 * Clone a fresh copy of the repo from GitHub into the parent directory of your old repo
@@ -897,6 +897,7 @@ This is an example `.gitignore` that includes files created when working with R 
 ## EXAM 1 Due Next Week Before Class 
 
 [See Course Schedule](../README.md)
+
 
 
 
