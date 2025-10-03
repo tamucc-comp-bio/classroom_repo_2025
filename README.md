@@ -75,11 +75,13 @@ Office hours are M-W 4-5:30 on Zoom or TH234
 
 <!-- This is a hidden comment. It will not be visible in the rendered markdown. 
 
-<details><summary>SECTION 1.  WELCOME TO THE MATRIX</summary>
-<p>
+
 
 the hidden section ends here
 -->
+
+<details><summary>SECTION 1.  WELCOME TO THE MATRIX</summary>
+<p>
 
 ### SECTION 1.  WELCOME TO THE MATRIX
 
