@@ -96,9 +96,6 @@
 <details><summary>ChromeOS, iOS, Android</summary>
 <p>
 
-<details><summary>ChromeOS, iOS, Android</summary>
-<p>
-
  Launch a CodeSpaces VM Using the [Lecture 0 CodeSpaces VM Link](https://classroom.github.com/a/5tvV4uls)
  
  Follow the Win/Mac/Linux instructions above
