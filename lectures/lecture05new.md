@@ -184,8 +184,6 @@ ___
 
 Consult the [Install R Instructions](https://github.com/tamucc-comp-bio/how_to/blob/main/install_r.md) in the [How to Set Up Your Computer for Computational Biology](https://github.com/tamucc-comp-bio/how_to/blob/main/howto_setup_computer.md) tutorial
 
-If you are using the launch HPC, then you already have R.
-
 ___
 </p>
 </details>
