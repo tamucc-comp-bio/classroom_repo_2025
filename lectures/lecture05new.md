@@ -749,7 +749,7 @@ ___
 
 Before you start reading and writing files, it is important to know where the working directory is
 
-`getwd(“path”)`  shows where you are, like `pwd` in `bash`
+`getwd()`  shows where you are, like `pwd` in `bash`
 
 `setwd(“path”)`	changes where you are, like `cd` in `bash`
 
@@ -871,7 +871,3 @@ list.files()
 ___
 
 
-
-## HOMEWORK
-
-### [Assignment 5](../assignments/assignment_5.md)
