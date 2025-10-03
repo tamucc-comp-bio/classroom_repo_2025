@@ -148,20 +148,18 @@ To check if you have `R`, goto your terminal window and enter the following comm
 $ R
 ```
 
-If you see this (or similar), then R is installed and you can proceed.  You should a version at least as new as that listed below.
+If you see this (or similar), then R is installed and you can proceed.  You should have a version at least as new as that listed below.
 
 ```
 $ R
 
-R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
-Copyright (C) 2022 The R Foundation for Statistical Computing
-Platform: x86_64-pc-linux-gnu (64-bit)
+R version 4.4.2 (2024-10-31) -- "Pile of Leaves"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
 Type 'license()' or 'licence()' for distribution details.
-
-  Natural language support but running in an English locale
 
 R is a collaborative project with many contributors.
 Type 'contributors()' for more information and
