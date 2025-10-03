@@ -4,8 +4,10 @@
 > [Assignment 3](../assignments/assignment_3.md) is due at the beginning of this lecture
 
 > [!NOTE]
-> The [Lecture Stream](https://tamucc.zoom.us/rec/share/vxOwv6iFIPz46wDj899ChaZk_q0747u-pyacIhREdiEalmrQ8VpwhsUG8NstlHI6.aC6vkz2gF5DIj2W-)
-Passcode: @9gU+#mn
+> The [Lecture Stream 2025](https://tamucc.zoom.us/rec/share/wazoE-XXaH84n0pqtn45EtU8fZ_WAD2qgkCCxJ0fbZCe2dKjh3s9uPu7ipd01PLi.1TpSh9UycOt00AEZ )
+Passcode: 727zJ?xU
+
+https://tamucc.zoom.us/rec/share/wazoE-XXaH84n0pqtn45EtU8fZ_WAD2qgkCCxJ0fbZCe2dKjh3s9uPu7ipd01PLi.1TpSh9UycOt00AEZ
 
 ___
 
