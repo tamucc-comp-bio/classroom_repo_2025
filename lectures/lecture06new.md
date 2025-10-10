@@ -94,7 +94,7 @@ ___
 <details><summary>ChromeOS, iOS, Android</summary>
 <p>
 
-  Launch a CodeSpaces VM Using the [Lecture 6 CodeSpaces VM Link](https://classroom.github.com/a/FkrqJCaU)
+  Launch a CodeSpaces VM Using the [Lecture 6 CodeSpaces VM Link](https://classroom.github.com/a/2TUfFuyt)
  
  Follow the Win/Mac/Linux instructions above
  
@@ -1331,16 +1331,4 @@ print(c(input_file, num_reps, start_point))
 
 </p>
 </details>
-
-
-## IV. Homework
-
-[Complete exercise 8.23.3 in the text, Consult the Schedule for the Link](../README.md)
-
-Install tidyverse in RStudio
-
-```r
-install.packages("tidyverse")
-install.packages("janitor")
-```
 
