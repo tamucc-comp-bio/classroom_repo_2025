@@ -502,8 +502,36 @@ From here forward, I request that you please work in R Studio, unless otherwise 
 You should type commands into the R Studio `text editor` (upper left panel) and then execute them from there using your mouse or arrow keys and `ctrl` + `enter`.  You can save your work as you would in other GUI apps.
 
 
-<details><summary>Required Housekeeping for Windows Only, Clone CSB Dir Into Your Windows Home Dir</summary>
+<details><summary>Dude, where's my ubuntu home dir? (Windows Only)</summary>
 <p>
+
+You can access your Ubunutu directory system by typing the following command into a windows explorer search bar or RSTudio/File Open window:
+
+```
+\\wsl$
+```
+
+You should see something like this if you did it correctly:
+
+![](Week06_files/wsl_openfile.png)
+
+Then select the correct Ubuntu installation dir.  
+
+> NOTE! 
+> in my computer, I've installed both the default `Ubuntu` and `Ubuntu-24.04`.  If you also have multiple Ubuntu dirs and are unsure which one you've been using, the name of the dir here should match the name of the Ubuntu you've been using in Microsoft Terminal
+
+![](Week06_files/msterminal_settings.png)
+
+Then click through to your `/home/YourUserName/CSB` dir
+
+![](Week06_files/wsl_openfile_home.png)
+
+---
+
+</p>
+</details>
+
+<details><summary>Optional Housekeeping for Windows Only, Clone CSB Dir Into Your Windows Home Dir</summary>
 
 _If you already did this when following the instructions to prep your computer at the top of this doc, then you do not have to do this again._
 
@@ -519,7 +547,7 @@ cd /mnt/c/Users/YourWinUserName/Downloads
 git clone git@github.com:tamucc-comp-bio-2022/CSB.git
 ```
 
-You can now close the ubuntu terminal. (single tear)
+You can now close the ubuntu terminal.
 
 ---
 
