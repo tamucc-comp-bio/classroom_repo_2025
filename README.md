@@ -160,7 +160,7 @@ This is the end of the hidden section
 
 * [10/10  Week06 Base R Bootcamp II](lectures/lecture06new.md)
 
-  * [Assignment 06 Q1, Due 10/17](https://classroom.github.com/a/Hut2FQRZ)
+  * [Assignment 06 Q1, Due 10/17](https://classroom.github.com/a/pq4mmgoC)
 
   * Install tidyverse in RStudio
 
