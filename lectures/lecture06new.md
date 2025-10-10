@@ -531,7 +531,7 @@ Then click through to your `/home/YourUserName/CSB` dir
 </p>
 </details>
 
-<details><summary>Optional Housekeeping for Windows Only, Clone CSB Dir Into Your Windows Home Dir</summary>
+<details><summary>Optional Housekeeping for Windows Only, Clone CSB Dir Into Your Windows Directory System</summary>
 
 _If you already did this when following the instructions to prep your computer at the top of this doc, then you do not have to do this again._
 
@@ -544,7 +544,7 @@ Open your ubuntu terminal and navigate to your windows `Downloads` directory, th
 ```bash
 # make sure you are in ubuntu
 cd /mnt/c/Users/YourWinUserName/Downloads
-git clone git@github.com:tamucc-comp-bio-2022/CSB.git
+git@github.com:tamucc-comp-bio/CSB.git
 ```
 
 You can now close the ubuntu terminal.
