@@ -441,7 +441,7 @@ The tidyverse is an opinionated collection of R packages designed for data scien
 Today, I am going to project a ppt slide show.  I would like you to set up R Studio as follows:
 
 > [!IMPORTANT]
-> Clone the [Lecture_07 Repository](https://classroom.github.com/a/29Mmh-zd) to your computer
+> Clone the [Lecture_07 Repository](https://classroom.github.com/a/Cc0eYUnO) to your computer
 
 > [!IMPORTANT]
 > Open `repository_lecture-07_YourUserName/CSB/data_wrangling/sandbox/data_visualization_ggplot2.R` 
