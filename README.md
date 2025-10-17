@@ -171,11 +171,12 @@ This is the end of the hidden section
 
 * [10/17  Week07 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
 
-  * [Assignment 6 Q 2-3, Due 10/24](https://classroom.github.com/a/Hut2FQRZ)
+  * Finish Assignment 6 Q 2-3, Due 10/24
+  * [Assignment 7, Due 10/24](https://classroom.github.com/a/cnB6wvv6)
 
-* [10/24  Week07 Take 2 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
+* [10/24  Week07 Take 2 or Week 08? - let's see how take 1 goes - Data Visualization w/ Tidyverse](lectures/lecture07new.md)
 
-  * [Assignment 7, Due 10/31](https://classroom.github.com/a/GaXT-KTR)
+  * TBA
      
 * [10/31  Week08 Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
 
