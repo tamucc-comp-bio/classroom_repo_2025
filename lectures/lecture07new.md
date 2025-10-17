@@ -137,8 +137,11 @@ rm(list = ls())
 <details><summary>Copy the `r` dir to your repo</summary>
 <p>
 
-Start the assignment by copying the `r` dir from the `CSB` repo to your homework repo.
+Clone the assignment repo to your computer.
 
+```bash
+git clone SshToYourHomeworkRepo
+```
 
 ---
 
