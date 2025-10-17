@@ -174,7 +174,34 @@ The first key to completing the exercise is using the information provided to yo
 source("http://bioconductor.org/biocLite.R")
 biocLite("EBImage")
 # note that to install EBImage, you might need to install other libraries
+```
 
+* For win users, install rtools
+
+* For mac users, install XQuartz and run the following commands in your bash terminal to install additional packages:
+
+```bash
+xcode-select --install
+brew install gcc
+brew install pkg-config
+brew install openssl curl libxml2
+```
+
+* For ubuntu users, run the following commands in your bash terminal to install dependencies
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install gfortran libssl-dev
+sudo apt install -y \
+  build-essential pkg-config \
+  libtiff-dev libfftw3-dev \
+  libpng-dev libjpeg-dev \
+  libcurl4-openssl-dev libxml2-dev \
+  r-base-dev
+```
+
+After installing dependencies, try to install `EBImage` in R again.  If you continue to get errors, use chatgpt to identify additional dependencies that are needed.
 
 # now load the library
 library(EBImage)
