@@ -203,7 +203,8 @@ sudo apt install -y \
 
 After installing dependencies, try to install `EBImage` in R again.  If you continue to get errors, use chatgpt to identify additional dependencies that are needed.
 
-# now load the library
+```
+# now load the library in r
 library(EBImage)
 ```
 
