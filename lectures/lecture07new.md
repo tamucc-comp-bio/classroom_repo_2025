@@ -134,7 +134,7 @@ rm(list = ls())
 
 ## I. Review Material Covered for Homework
 
-<details><summary>Copy the `r` dir to your repo</summary>
+<details><summary>Clone the assignment repo to your computer</summary>
 <p>
 
 Clone the assignment repo to your computer.
