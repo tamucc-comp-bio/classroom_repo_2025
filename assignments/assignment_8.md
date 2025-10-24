@@ -40,8 +40,8 @@ Note: R for Data Science has been updated more recently than the solutions, so t
 
 1. Review the solutions to _R for Data Science Exercises_ in the [Tibbles Chapter](https://jrnold.github.io/r4ds-exercise-solutions/tibbles.html).  
 
-> NOTE!
-> _When I suggest you review an exercise, I want you to read through the solution.  If you don't understand what's happening, then run the code._
+> [!NOTE]
+> When I suggest you review an exercise, I want you to read through the solution.  If you don't understand what's happening, then run the code.
 
 ---
 
