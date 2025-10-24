@@ -42,7 +42,7 @@ install.packages("readxl")
 ```
 
 > [!NOTE]
-> Clone the [Lecture_08 Repository](https://classroom.github.com/a/Hc6Dz4Re) to your computer
+> Clone the [Lecture_08 Repository](https://classroom.github.com/a/vVfge2mx) to your computer
 
 <details><summary>Windows, Mac, Linux</summary>
 <p>
