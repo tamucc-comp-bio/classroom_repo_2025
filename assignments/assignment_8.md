@@ -31,8 +31,8 @@ delays <-                  # one operation per line
   )
 ```
 
-
-Note: R for Data Science has been updated more recently than the solutions, so the numbering or even the questions may not always match between exactly between the two.
+> [!CAUTION]
+> R for Data Science has been updated more recently than the solutions, so the numbering or even the questions may not always match between exactly between the two.
 
 ---
 
@@ -49,7 +49,7 @@ Note: R for Data Science has been updated more recently than the solutions, so t
 
 2. Load the packages listed in [section 5.1.1 of R For Data Science](https://r4ds.had.co.nz/transform.html).  Review section 5.1.2, then complete [exercise 5.2.4.1](https://r4ds.had.co.nz/transform.html#exercises-8) using the `filter()` command.
 
-> [!NOTE]
+> [!CAUTION]
 > The solutions for exercise 5.2.4.1 are under [solution to exercise 5.2.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.2.1)
 
 3. Complete [exercise 5.2.4.3](https://r4ds.had.co.nz/transform.html#exercises-8)
