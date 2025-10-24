@@ -1,4 +1,4 @@
-# Week12 R Markdown (Lite) & Data Wrangling Exercises  Ch 7,9
+# Week09 R Markdown (Lite) 
 
 ###  No assignments were due today
 
@@ -280,10 +280,8 @@ Files needed for R Markdown lesson:
 
 ---
 
-## II. [Data Wrangling Exercises](https://classroom.github.com/a/fpunalz0)
+## II. Complete Assignment 8, Data Wrangling
 
 Complete these exercises and push your changes to the repo before the end of class.
 
-## HOME WORK
 
-Exam 2
