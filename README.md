@@ -178,7 +178,7 @@ This is the end of the hidden section
 
   * [Assignment 8, Due 10/31](https://classroom.github.com/a/exyYQOJC)
      
-* [10/31  Week08 Part 2 - Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
+* [10/31  Week09 R Markdown](lectures/lecture09new.md)
 
   * [Exam 2 Part 1, Due 11/07](https://forms.office.com/r/yEyDY7DRts)
 	* [Exam 2 Part 1 (Outside TAMUCC)](https://forms.office.com/r/TycAwVuDEW)
