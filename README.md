@@ -169,16 +169,17 @@ This is the end of the hidden section
 	install.packages("janitor")
 	```
 
-* [10/17  Week07 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
+* [10/17  Week07 Part 1 Data Visualization w/ Tidyverse](lectures/lecture07new.md)
 
   * Finish Assignment 6 Q 2-3, Due 10/24
   * [Assignment 7, Due 10/24](https://classroom.github.com/a/cnB6wvv6)
 
-* [10/24  Week07 Take 2 or Week 08? - let's see how take 1 goes - Data Visualization w/ Tidyverse](lectures/lecture07new.md)
+* [10/24  Week07 Part 2 - Data Visualization w/ Tidyverse](lectures/lecture07new.md)
+* [10/24  Week08 Part 1 - Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
 
-  * TBA
+  * [Finish Assignment 7, Due 10/31](https://classroom.github.com/a/cnB6wvv6)
      
-* [10/31  Week08 Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
+* [10/31  Week08 Part 2 - Data Wrangling w/ Tidyverse](lectures/lecture08new.md)
 
   * [Exam 2 Part 1, Due 11/07](https://forms.office.com/r/yEyDY7DRts)
 	* [Exam 2 Part 1 (Outside TAMUCC)](https://forms.office.com/r/TycAwVuDEW)
