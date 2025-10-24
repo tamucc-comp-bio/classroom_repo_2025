@@ -6,17 +6,29 @@ Complete the following exercises by making an R script with code that answers or
 * Include each question as a comment inside of each collapsable section.
 * Use the "unrolled" coding format with pipes I've been promoting in class, and be sure to follow every comma and pipe with a "line feed".
 
-As a specific example, review the differences between the 2 code blocks in [section 5.6.1 in R for Data Science](https://r4ds.had.co.nz/transform.html#combining-multiple-operations-with-the-pipe). I am advocating for the formating used in the second code block. 
+As a specific example, review the differences between the 2 code blocks in [section 5.6.1 in R for Data Science](https://r4ds.had.co.nz/transform.html#combining-multiple-operations-with-the-pipe). I am advocating for the formating used in the second code block with the following mods: 
 
 ```r
-delays <- flights %>% 
+delays <-
+  flights %>% 
   group_by(dest) %>% 
   summarise(
     count = n(),
-    dist = mean(distance, na.rm = TRUE),
-    delay = mean(arr_delay, na.rm = TRUE)
+    dist =
+      mean(
+        distance,
+        na.rm = TRUE
+      ),
+    delay =
+      mean(
+        arr_delay,
+        na.rm = TRUE
+      )
   ) %>% 
-  filter(count > 20, dest != "HNL")
+  filter(
+    count > 20,
+    dest != "HNL"
+  )
 ```
 
 
