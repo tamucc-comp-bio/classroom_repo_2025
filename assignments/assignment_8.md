@@ -12,13 +12,13 @@ As a specific example, review the differences between the 2 code blocks in [sect
 delays <-                  # one operation per line
   flights %>% 
   group_by(dest) %>%       # only 1 argument, so no need to unroll
-  summarise(               # 2 arguments, unroll
-    count = n(),           # only 1 argument, so no need to unroll
+  summarise(               # 3 arguments, unroll
+    count = n(),           # only 1 argument, so no need to unroll; need comma to separate arguments
     dist =                 # 2 arguments in mean, unroll
       mean(
         distance,
         na.rm = TRUE
-      ),
+      ),                   # end of dist=, need comma to separate arguments
     delay =                # 2 arguments in mean, unroll
       mean(
         arr_delay,
@@ -26,7 +26,7 @@ delays <-                  # one operation per line
       )
   ) %>% 
   filter(                  # 2 arguments, unroll
-    count > 20,
+    count > 20,            # need comma to separate arguments
     dest != "HNL"
   )
 ```
