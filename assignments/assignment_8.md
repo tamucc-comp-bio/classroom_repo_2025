@@ -54,6 +54,8 @@ delays <-                  # one operation per line
 
 3. Complete [exercise 5.2.4.3](https://r4ds.had.co.nz/transform.html#exercises-8)
 
+> [!CAUTION]
+> The solution can be found under [solution to exercise 5.2.3](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.2.3)
 
 4. Review the [solution to exercise 5.3.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.3.1) then complete [Exercise 5.3.1.2](https://r4ds.had.co.nz/transform.html#exercises-9)
 
