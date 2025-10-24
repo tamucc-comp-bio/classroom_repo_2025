@@ -1,6 +1,12 @@
 # Assignment 8 
 
-Complete the following exercises by making an R script with code that answers or addresses each question.  Within the R script, make a collapsable section for each question (e.g. #### Question 1 ####).  Include each question as a comment inside of each collapsable section.  Use the "unrolled" coding format with pipes I've been promoting in class, and be sure to follow every comma and pipe with a "line feed". As a specific example, review the differences between the 2 code blocks in [section 5.6.1 in R for Data Science](https://r4ds.had.co.nz/transform.html#combining-multiple-operations-with-the-pipe). I am advocating for the formating used in the second code block. 
+Complete the following exercises by making an R script with code that answers or addresses each question.  
+
+* Within the R script, make a collapsable section for each question (e.g. #### Question 1 ####).
+* Include each question as a comment inside of each collapsable section.
+* Use the "unrolled" coding format with pipes I've been promoting in class, and be sure to follow every comma and pipe with a "line feed".
+
+As a specific example, review the differences between the 2 code blocks in [section 5.6.1 in R for Data Science](https://r4ds.had.co.nz/transform.html#combining-multiple-operations-with-the-pipe). I am advocating for the formating used in the second code block. 
 
 
 Note: R for Data Science has been updatd more recently than the solutions, so the numbering or even the questions may not always match between exactly between the two.
