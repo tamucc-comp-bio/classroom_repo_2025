@@ -47,20 +47,23 @@ Note: R for Data Science has been updated more recently than the solutions, so t
 
 ### Data Transformation
 
-2. Load the packages listed in [section 5.1.1 of R For Data Science](https://r4ds.had.co.nz/transform.html).  Review section 5.1.2, then complete [exercise 5.2.4.1](https://r4ds.had.co.nz/transform.html#exercises-8) using the `filter()` command
+2. Load the packages listed in [section 5.1.1 of R For Data Science](https://r4ds.had.co.nz/transform.html).  Review section 5.1.2, then complete [exercise 5.2.4.1](https://r4ds.had.co.nz/transform.html#exercises-8) using the `filter()` command.
 
-3. Complete [exercise 5.2.4.3](https://r4ds.had.co.nz/transform.html#exercises-8)
+> [!NOTE]
+> The solutions for this are under [solution to exercise 5.2.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.2.1)
+
+4. Complete [exercise 5.2.4.3](https://r4ds.had.co.nz/transform.html#exercises-8)
 
 
-4. Review the [solution to exercise 5.3.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.3.1) then complete [Exercise 5.3.1.2](https://r4ds.had.co.nz/transform.html#exercises-9)
+5. Review the [solution to exercise 5.3.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.3.1) then complete [Exercise 5.3.1.2](https://r4ds.had.co.nz/transform.html#exercises-9)
 
-5. Review the [solution to exercise 5.4.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.4.1), then complete [exercise 5.4.1.4](https://r4ds.had.co.nz/transform.html#exercises-10)
+6. Review the [solution to exercise 5.4.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.4.1), then complete [exercise 5.4.1.4](https://r4ds.had.co.nz/transform.html#exercises-10)
 
-6. Review the [solution to exercise 5.5.2](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.5.2).  Note that I was hesitant to recommend any of the exercises in chapter 5 section 5 (`mutate()`) because they put an undue focus on working with times without using `lubridate::` - the tidyverse package to handle dates and times.  The purpose of these exercises is to show you how to use `mutate()`, so focus on that.  I selected this particular exercise because it prompts you to use informatics to solve the a problem (why is `air_time != arr_time - dep_time`?)
+7. Review the [solution to exercise 5.5.2](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.5.2).  Note that I was hesitant to recommend any of the exercises in chapter 5 section 5 (`mutate()`) because they put an undue focus on working with times without using `lubridate::` - the tidyverse package to handle dates and times.  The purpose of these exercises is to show you how to use `mutate()`, so focus on that.  I selected this particular exercise because it prompts you to use informatics to solve the a problem (why is `air_time != arr_time - dep_time`?)
 
-7. Review the [solution to exercise 5.6.4](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.6.4)
+8. Review the [solution to exercise 5.6.4](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.6.4)
 
-8. Review the [solution to exercise 5.7.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.7.1), then complete [exercise 5.7.1.3](https://r4ds.had.co.nz/transform.html#exercises-13) in R for Data Science
+9. Review the [solution to exercise 5.7.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.7.1), then complete [exercise 5.7.1.3](https://r4ds.had.co.nz/transform.html#exercises-13) in R for Data Science
 
 ---
 
