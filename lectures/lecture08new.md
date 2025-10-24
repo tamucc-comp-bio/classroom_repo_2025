@@ -3,7 +3,7 @@
 ![](https://d33wubrfki0l68.cloudfront.net/e3f9e555d0035731c04642ceb58a03fb84b98a7d/4f070/diagrams/data-science-wrangle.png)
 
 > [!IMPORTANT]
-> Assignment 7 is due by beginning of next class 
+> Assignment 7 is due by beginning of class 
 
 > [!NOTE]
 > [Lecture Stream](https://tamucc.zoom.us/rec/share/nTeSzlFU2vRvuM3erglagcyfIFgIrCBM0YEl4DYVB9aqQ5Y9mv2q46HbSkTVfzUN.bqD7kMLnMWyUY-SH?startTime=1730488454000)
