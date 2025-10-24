@@ -52,7 +52,7 @@ Note: R for Data Science has been updated more recently than the solutions, so t
 3. Complete [exercise 5.2.4.3](https://r4ds.had.co.nz/transform.html#exercises-8)
 
 
-4. Review the [solution to exercise 5.3.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.3.1) then complete [Exercise 5.3.1.2][https://r4ds.had.co.nz/transform.html#exercises-9]
+4. Review the [solution to exercise 5.3.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.3.1) then complete [Exercise 5.3.1.2](https://r4ds.had.co.nz/transform.html#exercises-9)
 
 5. Review the [solution to exercise 5.4.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.4.1), then complete [exercise 5.4.1.4](https://r4ds.had.co.nz/transform.html#exercises-10)
 
