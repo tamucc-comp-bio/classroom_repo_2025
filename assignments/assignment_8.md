@@ -9,23 +9,23 @@ Complete the following exercises by making an R script with code that answers or
 As a specific example, review the differences between the 2 code blocks in [section 5.6.1 in R for Data Science](https://r4ds.had.co.nz/transform.html#combining-multiple-operations-with-the-pipe). I am advocating for the formating used in the second code block with the following mods: 
 
 ```r
-delays <-
+delays <-                  # one operation per line
   flights %>% 
-  group_by(dest) %>% 
-  summarise(
-    count = n(),
-    dist =
+  group_by(dest) %>%       # only 1 argument, so no need to unroll
+  summarise(               # 2 arguments, unroll
+    count = n(),           # only 1 argument, so no need to unroll
+    dist =                 # 2 arguments in mean, unroll
       mean(
         distance,
         na.rm = TRUE
       ),
-    delay =
+    delay =                # 2 arguments in mean, unroll
       mean(
         arr_delay,
         na.rm = TRUE
       )
   ) %>% 
-  filter(
+  filter(                  # 2 arguments, unroll
     count > 20,
     dest != "HNL"
   )
