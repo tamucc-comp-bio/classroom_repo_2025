@@ -56,7 +56,7 @@ Note: R for Data Science has been updated more recently than the solutions, so t
 
 5. Review the [solution to exercise 5.4.1.1](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.4.1), then complete [exercise 5.4.1.4](https://r4ds.had.co.nz/transform.html#exercises-10)
 
-6. Review the [solution to exercise 5.5.2](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.5.2).  Note that I was hesitant to recommend any of the exercises in chapter 5 section 5 (`mutate()`) because they put an undue focus on working with times without using `lubridate()`.  The purpose of these exercises is to show you how to use `mutate()`, so focus on that.  I selected this particular exercise because it prompts you to use informatics to solve the a problem (why is `air_time != arr_time - dep_time`?)
+6. Review the [solution to exercise 5.5.2](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.5.2).  Note that I was hesitant to recommend any of the exercises in chapter 5 section 5 (`mutate()`) because they put an undue focus on working with times without using `lubridate::`.  The purpose of these exercises is to show you how to use `mutate()`, so focus on that.  I selected this particular exercise because it prompts you to use informatics to solve the a problem (why is `air_time != arr_time - dep_time`?)
 
 7. Review the [solution to exercise 5.6.4](https://jrnold.github.io/r4ds-exercise-solutions/transform.html#exercise-5.6.4)
 
