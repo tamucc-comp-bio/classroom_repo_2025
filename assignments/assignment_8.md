@@ -68,7 +68,7 @@ Note: R for Data Science has been updated more recently than the solutions, so t
 
 9. Complete [Exercise 7.3.4.1](https://r4ds.had.co.nz/exploratory-data-analysis.html#exercises-15) in R for Data Science
 
-10 Review the [solution to exercise 7.4.1](https://jrnold.github.io/r4ds-exercise-solutions/exploratory-data-analysis.html#exercise-7.4.1) then complete [exercise 7.4.1.2](https://r4ds.had.co.nz/exploratory-data-analysis.html#exercises-16).
+10. Review the [solution to exercise 7.4.1](https://jrnold.github.io/r4ds-exercise-solutions/exploratory-data-analysis.html#exercise-7.4.1) then complete [exercise 7.4.1.2](https://r4ds.had.co.nz/exploratory-data-analysis.html#exercises-16).
 11. Complete [exercise 7.5.1.2](https://r4ds.had.co.nz/exploratory-data-analysis.html#exercises-17) in R for Data Science.
 
 12. Review the [solution to exercise 7.5.2.1](https://jrnold.github.io/r4ds-exercise-solutions/exploratory-data-analysis.html#two-categorical-variables) then complete [exercise 7.5.2.2](https://r4ds.had.co.nz/exploratory-data-analysis.html#exercises-18) in R for Data Science.
