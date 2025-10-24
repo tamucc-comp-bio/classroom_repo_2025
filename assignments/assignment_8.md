@@ -8,6 +8,17 @@ Complete the following exercises by making an R script with code that answers or
 
 As a specific example, review the differences between the 2 code blocks in [section 5.6.1 in R for Data Science](https://r4ds.had.co.nz/transform.html#combining-multiple-operations-with-the-pipe). I am advocating for the formating used in the second code block. 
 
+```r
+delays <- flights %>% 
+  group_by(dest) %>% 
+  summarise(
+    count = n(),
+    dist = mean(distance, na.rm = TRUE),
+    delay = mean(arr_delay, na.rm = TRUE)
+  ) %>% 
+  filter(count > 20, dest != "HNL")
+```
+
 
 Note: R for Data Science has been updatd more recently than the solutions, so the numbering or even the questions may not always match between exactly between the two.
 
