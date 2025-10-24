@@ -32,7 +32,7 @@ delays <-                  # one operation per line
 ```
 
 
-Note: R for Data Science has been updatd more recently than the solutions, so the numbering or even the questions may not always match between exactly between the two.
+Note: R for Data Science has been updated more recently than the solutions, so the numbering or even the questions may not always match between exactly between the two.
 
 ---
 
