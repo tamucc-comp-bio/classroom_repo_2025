@@ -111,9 +111,11 @@ library(rmarkdown)
 library(knitr)
 ```
 
-2. You should also install `pandoc` on your computer following the instructions [here](https://pandoc.org/installing.html).  Windows people, do the windows install (the `*.msi` installer, not the `*.zip`) because we are using windows to run RStudio.
+2. (confirm) You should also install `pandoc` on your computer following the instructions [here](https://pandoc.org/installing.html).  Windows people, do the windows install (the `*.msi` installer, not the `*.zip`) because we are using windows to run RStudio.
 
-3. Finally, you should install scientific typesetting software `LaTeX` that operates independently of R and RStudio. Like `Linux`, there are several flavors of `LaTeX`.  For mac and linux, follow the instructions [here](http://computingskillsforbiologists.com/setup/scientific-typesetting/).  For Windows , follow the instructions below
+3. Install [TinyTex]() to enable the ability to create PDFs and other file types.  TinyTex is a small LaTeX package designed to work with `knittr`.
+
+Finally, you should install scientific typesetting software `LaTeX` that operates independently of R and RStudio. Like `Linux`, there are several flavors of `LaTeX`.  For mac and linux, follow the instructions [here](http://computingskillsforbiologists.com/setup/scientific-typesetting/).  For Windows , follow the instructions below
 
 <details><summary>Win LaTeX install instructions *IMPORTANT* </summary>
 <p>
