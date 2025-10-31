@@ -131,13 +131,6 @@ library(knitr)
 </p>
 </details>
 
-<details><summary>MacOS</summary>
-<p>
-
-May the force be with you.  Let me know if I should add anything here.
-
-</p>
-</details>
 
 ---
 
@@ -193,7 +186,7 @@ ___
 
 YAML stands for YAML Aint Markup Language.
 
-Lines 1-4 in the Rmd are the YAML header, which contains the title of the document and the default output format.  `html` is hyper text markup language, i.e. web pages.  The YAML header is always at the beginning of an Rmd.
+Lines 1-8 in the Rmd are the YAML header, which contains the title of the document and the default output format.  `html` is hyper text markup language, i.e. web pages.  The YAML header is always at the beginning of an Rmd.
 
 Several other characteristics of the Rmd document can be set in the YAML header.  This [tutorial](https://zsmith27.github.io/rmarkdown_crash-course/lesson-4-yaml-headers.html) is pretty good.
 
@@ -208,7 +201,7 @@ Several other characteristics of the Rmd document can be set in the YAML header.
 
 ### Code Chunks
 
-Lines 6-8, 16-18, and 24-26 are code chunks.  They start with three tick marks (the key in the upper left of you keyboard) and you can specify the language (r and other languages like python are possible), as well as basic settings of how the output from the code should be handled. For example, you can suppress warnings, error messages, etc.
+Lines 10-12, 20-22, and 28-30 are code chunks.  They start with three tick marks (the key in the upper left of you keyboard) and you can specify the language (r and other languages like python are possible), as well as basic settings of how the output from the code should be handled. For example, you can suppress warnings, error messages, etc.
 
 The output of the code chunks are included in the resulting document.
 
@@ -225,15 +218,15 @@ The output of the code chunks are included in the resulting document.
 
 Everything else in the Rmd is markdown text if it is not code or YAML.  
 
-For example, line 12 is the first line of text.  The `##` indicates that the text `R Markdown` should be a secondary heading.
+For example, line 14 is the first line of text.  The `##` indicates that the text `R Markdown` should be a secondary heading.
 
-Markdown is a class of typesetting languages.  There are broad similarities across markdown languages but there can also be small differences.  This lecture is written in markdown and I make sure it works on GitHub.  The markdown in an Rmd can be slightly different. 
+Markdown is a class of typesetting languages.  There are broad similarities across markdown languages but there can also be small differences.  This lecture document is written in GitHub markdown.  The markdown in an `Rmd` file has similarities to that in GitHub and other flavors, but can be slightly different and allows you to run R code. 
 
-You can consult the 
+You can consult: 
 
-#### [R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) 
+#### [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/html-document.html) 
 
-and 
+#### [R Markdown Crash Course (getting dated)](https://zsmith27.github.io/rmarkdown_crash-course/index.html) 
 
 [R Markdown Cheatsheet](https://posit.co/wp-content/uploads/2022/10/rmarkdown-1.pdf) 
 
