@@ -251,10 +251,16 @@ Markdown is a class of typesetting languages.  There are broad similarities acro
 <details><summary>Quarto, the New RMarkdown</summary>
 <p>
 
-Quarto was spawned from RMarkdown, but can be used with more than just the R coding language.  I think you should know it exists, but we will stick with RMarkdown for this year.  Quarto is very similar to RMarkdown.
+Quarto was spawned from RMarkdown, but can be used with more than just the R coding language.  I think you should know it exists, but we will stick with RMarkdown for this year.  Quarto is very similar to RMarkdown and if you can use RMarkdown, you'll be able to transistion to Quarto easily.
+
+To use quarto, you have to [install the Quarto CLI](https://quarto.org/docs/get-started/). But again, we will not delve further into Quarto in this course.
 
 [R for Data Science: Quarto Chapter](https://r4ds.hadley.nz/quarto.html)
 
+---
+
+</p>
+</details>
 
 <details><summary>R Markdown Tutorial</summary>
 <p>
