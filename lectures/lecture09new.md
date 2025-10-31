@@ -222,15 +222,6 @@ For example, line 14 is the first line of text.  The `##` indicates that the tex
 
 Markdown is a class of typesetting languages.  There are broad similarities across markdown languages but there can also be small differences.  This lecture document is written in GitHub markdown.  The markdown in an `Rmd` file has similarities to that in GitHub and other flavors, but can be slightly different and allows you to run R code. 
 
-You can consult: 
-
-#### [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/html-document.html) 
-
-#### [R Markdown Crash Course (getting dated)](https://zsmith27.github.io/rmarkdown_crash-course/index.html) 
-
-[R Markdown Cheatsheet](https://posit.co/wp-content/uploads/2022/10/rmarkdown-1.pdf) 
-
-for all of the formatting options.
 
 ---
 
@@ -242,7 +233,7 @@ for all of the formatting options.
 
 [Official RMarkdown Tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
 
-[Official R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) 
+[Official R Markdown Reference Guide](https://bookdown.org/yihui/rmarkdown/html-document.html) 
 
 [Official R Markdown Cheatsheet](https://posit.co/wp-content/uploads/2022/10/rmarkdown-1.pdf)
 
@@ -257,6 +248,12 @@ for all of the formatting options.
 </p>
 </details>
 
+<details><summary>Quarto, the New RMarkdown</summary>
+<p>
+
+Quarto was spawned from RMarkdown, but can be used with more than just the R coding language.  I think you should know it exists, but we will stick with RMarkdown for this year.  Quarto is very similar to RMarkdown.
+
+[R for Data Science: Quarto Chapter](https://r4ds.hadley.nz/quarto.html)
 
 
 <details><summary>R Markdown Tutorial</summary>
