@@ -86,7 +86,7 @@ install.packages("readxl")
     ls CSB
     ```
 
-    > You should see the following output because we cloned the CSB Repo to your home dir in [Lecture 0](https://github.com/tamucc-comp-bio/classroom_repo_2024/blob/master/lectures/lecture00.md).  
+    > You should see the following output because we cloned the CSB Repo to your home dir in [Lecture 0](lecture00.md).  
 
     ```bash
     LICENSE  README.md  data_wrangling  git  good_code  latex  python  r  regex  scientific  sql  unix
@@ -99,7 +99,7 @@ install.packages("readxl")
   > If you **do not** see the output above, then clone the CSB repo by entering the following commands:
 
     ```bash
-        git clone https://github.com/CSB-book/CSB.git
+        git clone git@github.com:tamucc-comp-bio/CSB.git
     ``` 
 
   > You should see the following output:
