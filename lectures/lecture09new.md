@@ -103,25 +103,26 @@ You are expected to start this lecture with R Studio open with a fresh and empty
 
 R Markdown is a typesetting language that allows you to also incorporate R code chunks.  If you did not notice yet, the solutions for the Data Wrangling chapter of CSB are written in R Markdown.  There are a variety of applications of R Markdown.  The one I have used the most is making a report where the data changes through time, but the layout of figures and text does not change.
 
+> [!CAUTION]
+> RMarkdown runs much more slowly than normal R code.
+
 1. For R Markdown to work properly, you need some additional packages installed in R Studio. Realize that R can also process R Markdown scripts from terminal without R Studio.
 
 ```r 
 install.packages("rmarkdown")
 install.packages("knitr", dependencies=TRUE)
+install.packages("tinytex")
+tinytex::install_tinytex()
+
 library(rmarkdown)
 library(knitr)
+
 ```
 
-2. (confirm) You should also install `pandoc` on your computer following the instructions [here](https://pandoc.org/installing.html).  Windows people, do the windows install (the `*.msi` installer, not the `*.zip`) because we are using windows to run RStudio.
+2. (OPTIONAL) As of 2025, RStudio installs a lite version of pandoc, so you don't need to install `pandoc`.  You can install `pandoc` on your computer following the instructions [here](https://pandoc.org/installing.html).  Windows people, do the windows install (the `*.msi` installer, not the `*.zip`) because we are using windows to run RStudio. 
 
-3. Install [TinyTex]() to enable the ability to create PDFs and other file types.  TinyTex is a small LaTeX package designed to work with `knittr`.
+3. (OPTIONAL ) As of 2025, [TinyTex](https://yihui.org/tinytex/) can be used to install a lite version of LaTeX and if you followed the instructions above, you've already installed it. A LaTeX package enables the ability to create PDFs and other file types.  TinyTex is a small LaTeX package designed to work with `knittr`. If you want a full featured LaTeX distribution, you should install scientific typesetting software `LaTeX` that operates independently of R and RStudio. Like `Linux`, there are several flavors of `LaTeX`.  For linux: `sudo apt-get install texlive`.  For mac, [install MacTex](https://www.tug.org/mactex/mactex-download.html).  For windows, [install MikTex](https://miktex.org/download) - be sure to install as administrator.
 
-Finally, you should install scientific typesetting software `LaTeX` that operates independently of R and RStudio. Like `Linux`, there are several flavors of `LaTeX`.  For mac and linux, follow the instructions [here](http://computingskillsforbiologists.com/setup/scientific-typesetting/).  For Windows , follow the instructions below
-
-<details><summary>Win LaTeX install instructions *IMPORTANT* </summary>
-<p>
-
-> Follow this exactly as written. Download the `protex.zip` file as directed above. Next, extract/unzip the files first, before running `setup.exe`. Right click `setup.exe` and `run as administrator`. After running the setup.exe file, you have to click install on the `MiKTeX` and `TeXstudio` buttons. Install for all users  The install takes a while, just let it run in the background and check on it periodically until it is done. After that, `MiKTeX` will have to be exited and restarted so you can run it as a `MiKTeX` administrator.  Search for `MiKTeX` in your windows search (magnifying glass next to start button).  Then expand your "system tray" (the > and collection of icons on the right side of your task bar), right click and exit `MiKTeX`.  Then search for `MiKTeX` again, right click it, run as administrator, make sure that you are a `MiKTeX` administrator by selecting the option in the window, and search for updates. Click the `updates page` link after search is done and click `update now`. My updates errored out once. So make sure to recheck for updates and restart the updates as necessary. If you cannot get it to update completely, it should not inhibit your ability to complete most everything that follows.
 
 ![](Week09new_files/miktex-updates.png)
 
