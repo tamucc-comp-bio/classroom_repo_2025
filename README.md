@@ -183,7 +183,7 @@ This is the end of the hidden section
   * [Exam 2 Part 1, Due 11/07](https://forms.office.com/r/yEyDY7DRts)
 	* [Exam 2 Part 1 (Outside TAMUCC)](https://forms.office.com/r/TycAwVuDEW)
 
-  * [Exam 2 Part 2, Due 11/07](https://classroom.github.com/a/DC3teNj3)
+  * [Exam 2 Part 2, Due 11/07](https://classroom.github.com/a/49v1Y0Af)
 
  <!--
  
