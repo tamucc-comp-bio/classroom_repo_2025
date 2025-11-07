@@ -186,7 +186,7 @@ ___
 
 ## [I. Lecture Slides](Week10_files/Lecture05_BasicProgramming.pdf)
 
-## II. Anaconda
+## II. Anaconda/Miniconda
 
 ### What is Anaconda?
 
