@@ -551,6 +551,8 @@ ___
 
 #### [Mind Expander (Intermezzo) 3.3](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUNkFQTTUwVVRHWVBFVDFXUkhUWThHTFlCVy4u)
 
+	[OUTSIDE TAMUCC Mind Expander 3.3](https://forms.office.com/r/WCR8WG3u63)
+
 Hint: you can self check by modifying the for loops to calculate the number of loops
 
 ```python
