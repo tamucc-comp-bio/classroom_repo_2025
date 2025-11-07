@@ -184,7 +184,7 @@ In summary, for students, especially those in fields like data science, biology,
 ___
 
 
-## [I. Lecture Slides](https://github.com/tamucc-comp-bio/fall_2019/blob/master/lectures/Week05_files/Lecture05_BasicProgramming.pdf)
+## [I. Lecture Slides](Week10_files/Lecture05_BasicProgramming.pdf)
 
 ## II. Anaconda
 
