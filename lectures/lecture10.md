@@ -220,6 +220,8 @@ ___
 
 ### One More Time, What is Conda?
 
+Conda is a streamlined package manager that allows you to create multiple, separated environments so that you can customize dependencies and software versions for a particular project or task. If you have conda turned on, you default to the `base` environment. Because python is opensource, and all python tools you'll use are open source, each tool/package will have it's own unique set of dependencies that might conflict with other python packages. For example, there are several popular python packages for historical demographic modelling using genetic data.  Each should run in its own environment so that their dependencies don't negatively impact each other or other python packages that you use.
+
 When `conda` is turned on, your default `python` will be that installed inside of your base `conda` environment and will include all the packages that `miniconda/anaconda` preinstalls. You are not in a "conda command prompt", rather, `bash` is altered when `conda` is running.
 
 You know that `conda` is running if your have `(base)` or something similar prior to your command prompt:
