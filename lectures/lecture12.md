@@ -416,7 +416,7 @@ ___
 
 *Modules* are single files that contain multiple functions.
 
-*Packages* are collections of modules and can be imported into python to save you a lot of time. Last week we used the `csv` and `os` packages.
+*Packages* are collections of modules and can be imported into python to save time. Last week we used the `csv` and `os` packages.
 
 There are 4 different ways to to load a module. Below we will use generic terms *theModule* and *theFunction* which should be replaced with real module and function names, respectively.
 * `import theModule`
@@ -425,7 +425,7 @@ There are 4 different ways to to load a module. Below we will use generic terms 
 	* gives the module the name mm
 * `from theModule import *`
 
-You should definitely create your own modules to save you time. They would contain fuctions that you use frequently.
+You should definitely create your own modules to save time. They would contain fuctions that you use frequently.
 
 > [!IMPORTANT]
 > Exit python with `ctrl-d`
