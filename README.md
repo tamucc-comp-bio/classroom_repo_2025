@@ -232,12 +232,12 @@ This is the end of the hidden section
 ### SECTION 3. PROGRAMMING WITH PYTHON
 
 * [11/07  Week10 Basic Python Programming I](lectures/lecture10.md)
-    * [Assignment_10, Due 11/14](https://forms.office.com/Pages/ResponsePage.aspx?id=8frLNKZngUepylFOslULZlFZdbyVx8RLiPt1GobhHnlUMzdVVkQwTlRQMENSVTQ5S0dUT0c1NFgwRi4u)
-    * [Assignment_10 (Outside TAMUCC)](https://forms.office.com/r/ufyV1Xtraf)
+* [11/07  Week11 Basic Python Programming II](lectures/lecture11.md)
+    * [Assignment 11, Due 11/14-21](https://classroom.github.com/a/4JCYaOLH)
 
 * [11/14  Week11 Basic Python Programming II](lectures/lecture11.md)
 * [11/14  Week12 Writing Good Code](lectures/lecture12.md)
-  * [Assignment 11, Due 11/21](https://classroom.github.com/a/4JCYaOLH)
+  
  
 * [11/21  Week12 Writing Good Code](lectures/lecture12.md)
 * [11/21  Week13 Scientific Computing](lectures/lecture13.md)
