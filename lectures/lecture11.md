@@ -735,7 +735,7 @@ As a demonstration of how the csv module can be used, we can write all entries f
 
 You can view that the Dalziel2016_Washington.csv was created with the following command
 
-```
+```python
 >>> print(os.listdir("."))
 
 ['Dalziel2016_Washington.csv']
