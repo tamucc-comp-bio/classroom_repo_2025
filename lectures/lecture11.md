@@ -691,6 +691,15 @@ biweek,year,loc,cases,pop
 3,1906,BALTIMORE,NA,527170.1981
 ```
 
+> [!NOTE]
+> the i variable is used as a way to limit the number of rows printed.  All rows would be printed otherwise:
+
+```python
+>>> with open("../data/Dalziel2016_data.csv") as f:
+...     for line in enumerate(f):
+...             print(line.strip())
+...
+```
 ___
 
 
