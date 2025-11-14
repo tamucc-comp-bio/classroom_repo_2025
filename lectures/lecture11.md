@@ -745,7 +745,7 @@ ___
 
 #### Mind Expander (Intermezzo) 3.4
 
-Let us work together (in that you tell me what to type) to write a code block that prints the `loc` and `pop` for all the rows in `Dalziel2016_data.csv`
+Let us work together (in that you tell me what to type) to write a code block that prints the `loc` and `pop` for all the rows in `Dalziel2016_data.csv` to the screen
 
 ___
 
