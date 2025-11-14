@@ -764,13 +764,13 @@ ___
 Last thing is how to run a python script from the bash terminal.
 
 ```bash
-python3 script.py
+python script.py
 ```
 
 You should add a shebang! to your scripts. 
 
 ```bash
-#!/usr/bin/env python3
+#!/usr/bin/env python
 ```
 
 ---
