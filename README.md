@@ -237,11 +237,11 @@ This is the end of the hidden section
 
 * [11/14  Week11 Basic Python Programming II](lectures/lecture11.md)
 * [11/14  Week12 Writing Good Code](lectures/lecture12.md)
-  
+    * [Assignment 12, Due 11/21](https://classroom.github.com/a/LJPtScMZ)
  
 * [11/21  Week12 Writing Good Code](lectures/lecture12.md)
 * [11/21  Week13 Scientific Computing](lectures/lecture13.md)
-  * [Assignment 12, **Due Wed 12/03**](https://classroom.github.com/a/LJPtScMZ)
+    * [Assignment 13, Due **Wed 12/3**]()
 
 </p>
 </details>
