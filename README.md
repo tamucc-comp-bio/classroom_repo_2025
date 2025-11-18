@@ -241,7 +241,7 @@ This is the end of the hidden section
  
 * [11/21  Week12 Writing Good Code](lectures/lecture12.md)
 * [11/21  Week13 Scientific Computing](lectures/lecture13.md)
-    * [Assignment 13, Due **Wed 12/3**]()
+
 
 </p>
 </details>
