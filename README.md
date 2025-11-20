@@ -281,7 +281,8 @@ I will issue a Final Exam in much the same way I have issued assignments, in a M
 
 
 #### Graduate Students
-Your "final" is completing your independent project by pushing the last changes to your repo by 12/11 9:45 pm.  Graduate students have a presentation also on Friday Dec 5 at 1:45PM in Tidal Hall 2nd Floor Grad Student Conf Table.  All are invited to attend.   
+Your "final" is completing your independent project by pushing the last changes to your repo by 12/11 9:45 pm.  Graduate students have a presentation also on Friday Dec 5 at 1:45PM in the OCNR 241 (same as the lectures).  Undergrads are invited to attend.   
+
 </p>
 </details>
 
