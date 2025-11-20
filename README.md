@@ -257,7 +257,7 @@ This is the end of the hidden section
 <details><summary>FINAL EXAM: "Welcome to the Desert of the Real"</summary>
 <p>
 
-
+-->
 
 ### FINAL EXAM: "Welcome to the Desert of the Real"
 
@@ -274,18 +274,18 @@ We have spent the semester learning:
 #### Undergraduates:  
 I will issue a Final Exam in much the same way I have issued assignments, in a MS Form and a Repo. You can use all resources at your disposal to complete the exam and extra credit.
 
-* [Final Exam (Python) Due 12/5 9:45 pm](https://forms.office.com/r/uYHNJTdBgQ)  LIVE!
+* [Final Exam (Python) Due 12/8 11:59 pm](https://forms.office.com/r/uYHNJTdBgQ)  LIVE!
 
-* [Final Exam Extra Credit Due 12/5 9:45 pm](https://classroom.github.com/a/czMTVVik)  LIVE!
+* [Final Exam Extra Credit Due 12/8 11:59 pm](https://classroom.github.com/a/czMTVVik)  LIVE!
 
 
 
 #### Graduate Students
-Your "final" is completing your independent project by pushing the last changes to your repo by 12/9 11:59 pm.  Graduate students have a presentation also on Friday Dec 5 at 2PM in Tidal Hall 2nd Floor Grad Student Conf Table.  All are invited to attend.   
+Your "final" is completing your independent project by pushing the last changes to your repo by 12/11 9:45 pm.  Graduate students have a presentation also on Friday Dec 5 at 1:45PM in Tidal Hall 2nd Floor Grad Student Conf Table.  All are invited to attend.   
 </p>
 </details>
 
 
--->
+
 
 ---
