@@ -725,9 +725,10 @@ Windows-unbuntu folks should turn on the windows app, `Xming` for the next lines
 Now let us start working in python:
 
 ```python
->>> import numpy as np
->>> import skimage.io as io
->>> import matplotlib as mpl
+import numpy as np
+import skimage.io as io
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 ```
 
 ___
@@ -752,8 +753,8 @@ ___
 
 ```python
 # load image, this will cause quite a bit of error output
->>> mpl.pyplot.imshow(image)
->>> mpl.pyplot.show()
+plt.imshow(image)
+plt.show()
 ```
 
 ![](Week13_files/Capture.PNG "image 1")
