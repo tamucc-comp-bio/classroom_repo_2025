@@ -721,7 +721,7 @@ nano simulate_drift.py
 Next modify it as follows
 
 ```python
-#!/home/cbird/anaconda3/bin/python3
+#!/usr/bin/env python
 
 import sys
 import drift
