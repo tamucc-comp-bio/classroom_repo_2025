@@ -460,6 +460,13 @@ Here are some examples of arithmetic and statistical methods associated with arr
 ```python
 >>> a.sum()
 36
+```
+
+You may need to wrap the array method in a print() function to get numeric output.
+
+```python
+>>> print(a.sum())
+36
 >>> a.mean()
 4.0
 >>> a.std()
