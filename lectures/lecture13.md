@@ -209,6 +209,10 @@ You can create a new environment with `conda` in the `bash` terminal
 You should see similar output to this:
 
 ```bash
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/main? [(a)ccept/(r)eject/(v)iew]: a
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/r? [(a)ccept/(r)eject/(v)iew]: a
+2 channel Terms of Service accepted
+Retrieving notices: done
 Channels:
  - defaults
 Platform: linux-64
