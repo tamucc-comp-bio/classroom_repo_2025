@@ -752,9 +752,12 @@ ___
 ### Viewing Image from Within Python
 
 ```python
-# load image, this will cause quite a bit of error output
-plt.imshow(image)
-plt.show()
+# load image, ignore the message and push forward
+>>> plt.imshow(image)
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
+<matplotlib.image.AxesImage object at 0x7fa7728e67b0>
+
+>>> plt.show()
 ```
 
 ![](Week13_files/Capture.PNG "image 1")
