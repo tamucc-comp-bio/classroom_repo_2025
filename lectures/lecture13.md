@@ -811,9 +811,9 @@ We can count the number of red pixels, ie those exhibiting NPF and NPFR1 express
 >>> img_copy = image.copy()
 # use Python slicing to change color values of part of the red channel in the image
 >>> img_copy[:, 480:500, 0] = 100
->>> io.imshow(img_copy)
+>>> plt.imshow(img_copy)
 <matplotlib.image.AxesImage object at 0x7f103b7a6d30>
->>> mpl.pyplot.show()
+>>> plt.show()
 ```
 
 ![alt text](Week13_files/Capture2.PNG "image 2")
@@ -825,9 +825,9 @@ We now create a new array where we select only pixels that exceed the threshold,
 >>> mask = red > threshold
 >>> mask.sum()
 37037
->>> io.imshow(mask)
+>>> plt.imshow(mask)
 <matplotlib.image.AxesImage object at 0x7f103b7c31d0>
->>> mpl.pyplot.show()
+>>> plt.show()
 ```
 
 There are 37,037 pixels above the threshold and that the expression of NPF and NPFR1 is spatially localized
@@ -840,9 +840,9 @@ Using the mask (i.e., setting every pixel to either 0 or 1), we lost the informa
 >>> mask2 = red * (red > threshold)
 >>> mask2.sum()
 4855070
->>> io.imshow(mask2)
+>>> plt.imshow(mask2)
 <matplotlib.image.AxesImage object at 0x7f103b7a6630>
->>> mpl.pyplot.show()
+>>> plt.show()
 ```
 
 ![alt text](Week13_files/Capture4.PNG "image 4")
