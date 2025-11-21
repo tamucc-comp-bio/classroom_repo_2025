@@ -825,7 +825,7 @@ We now create a new array where we select only pixels that exceed the threshold,
 >>> mask = red > threshold
 >>> mask.sum()
 37037
->>> plt.imshow(mask)
+>>> plt.imshow(mask, cmap="gray", vmin=0, vmax=1)
 <matplotlib.image.AxesImage object at 0x7f103b7c31d0>
 >>> plt.show()
 ```
