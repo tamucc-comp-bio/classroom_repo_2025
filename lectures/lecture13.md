@@ -296,6 +296,12 @@ conda list | grep 'numpy\|scipy\|pandas\|biopython'
 # install biopython
 conda install biopython
 
+```
+
+<details><summary>Last year the previous command did not work.  Expand for troubleshooting example </summary>
+<p>
+
+```bash
 # I got hung up here, so tried the following:
 
 conda clean --all
@@ -309,7 +315,7 @@ conda install -c conda-forge biopython
 conda install conda-forge::biopython
 
 ```
-
+	
 We can't install `biopython` because it doesn't work with the newest version of Python
 Delete the environment and start Over
 
@@ -341,6 +347,9 @@ conda list | grep 'numpy\|scipy\|pandas\|biopython'
 
 ```
 
+</p>
+</details>
+
 Now let's install some other packages for this lecture
 
 ```bash
@@ -356,7 +365,7 @@ Confirm installation of biopython in python3 terminal
 >>>
 ```
 
-You can also update packages that are already installed.
+You can also update packages that are already installed.  (bash terminal)
 
 ```bash
 # if you want to update a package
