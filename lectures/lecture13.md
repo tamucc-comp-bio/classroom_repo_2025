@@ -1268,33 +1268,33 @@ MH210243.1 Uropsilus investigator voucher KIZ:201211169 recombination activating
 >>> handle.close()
 ```
 
+<!-- This is a hidden comment. It will not be visible in the rendered markdown. 
+
 SeqIO.parse returns a SeqRecord Python object that comes with several methods. Type record. and hit the Tab key in your Jupyter notebook to obtain a list of methods. Let us select only the records of the RAG1 gene and shorten our sequences before writing to a new file:
 
-#################################
-This code does not work, and you are not responsible for the rest of this document. I am keeping what follows so that I can just make a different example for a future class.
 
-The problems in the book code were multifold. I have this down to 1 problem.  The SeqIO line does not work.  
-
-```
->>> import re
-
-```
-output_handle = open("Uropsilus_RAG1.fasta", "w")
+```python
+import re
+output_handle = open("Uropsilus_BMI1.fasta", "w")
 for record in SeqIO.parse("Uropsilus_seq.fasta", "fasta"):
-	if re.search ("RAG1", record.description):
+	if re.search("BMI1", record.description):
 		print(record.id)
 		short_seq = record[:100]
-		SeqIO.write(record.id, output_handle, "fasta")
-
+		SeqIO.write(short_seq, output_handle, "fasta")
 output_handle.close()
 
+```
 
-for record in SeqIO.parse("Uropsilus_seq.fasta", "fasta"):
-	print(record.id)
-	print(record.description)
-		short_seq = record[:100]
-		SeqIO.write(short_seq, output_handle, "fasta")
+---
 
+### 6.4.3 Blast
 
+```
+from Bio.Blast import NCBIWWW
+handle = open("Uropsilus_BMI1.fasta", "r")
+records = list(SeqIO.parse(handle, "fasta"))
+print(records[3].id, " ", records[3].seq)
+```
+-->
 
 
