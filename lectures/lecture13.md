@@ -298,6 +298,8 @@ conda install biopython
 
 ```
 
+---
+
 <details><summary>Last year the previous command did not work.  Expand for troubleshooting example </summary>
 <p>
 
@@ -349,6 +351,8 @@ conda list | grep 'numpy\|scipy\|pandas\|biopython'
 
 </p>
 </details>
+
+---
 
 Now let's install some other packages for this lecture
 
