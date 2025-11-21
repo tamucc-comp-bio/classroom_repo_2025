@@ -752,14 +752,7 @@ ___
 
 ```python
 # load image, this will cause quite a bit of error output
->>> io.imshow(image)
-QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-cbird'
-failed to get the current screen resources
-<matplotlib.image.AxesImage object at 0x7f103b7a6080>
->>> QXcbConnection: XCB error: 170 (Unknown), sequence: 170, resource id: 90, major code: 146 (Unknown), minor code: 20
-
-# hit enter key to move forward
-# visualize the image
+>>> mpl.pyplot.imshow(image)
 >>> mpl.pyplot.show()
 ```
 
