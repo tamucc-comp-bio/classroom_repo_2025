@@ -269,7 +269,7 @@ You can change between environments using `conda activate` and `conda deactivate
 
 The are installation details in `~/CSB/scientific/installation`.  You can also consult the official [python package installation tutorial](https://packaging.python.org/tutorials/installing-packages/)
 
-I did the following in the bash shell to install biopython, given that we should all have anaconda:
+I did the following in the bash shell to install biopython, given that we should all have miniconda/anaconda:
 
 ```bash
 cd ~
