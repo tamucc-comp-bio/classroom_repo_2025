@@ -840,7 +840,7 @@ Using the mask (i.e., setting every pixel to either 0 or 1), we lost the informa
 >>> mask2 = red * (red > threshold)
 >>> mask2.sum()
 4855070
->>> plt.imshow(mask2)
+>>> plt.imshow(mask2, cmap="gray")
 <matplotlib.image.AxesImage object at 0x7f103b7a6630>
 >>> plt.show()
 ```
